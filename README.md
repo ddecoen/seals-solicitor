@@ -5,33 +5,36 @@ A newspaper-style team news issue for the Seals after every MLBC sim.
 ## Each sim
 
 1. Download the sim file into `~/Downloads/MLBC Sim Files/` as usual (`mlbcfile_2145_simNN/mlbcSeason/...`).
-2. Build the stats packet (compares the newest sim with the one before it):
+2. Build the stats packet:
 
    ```
-   python3 build_facts.py "~/Downloads/MLBC Sim Files" --issue 2
+   cd ~/Downloads/"MLBC Sim Files"/"Seals Solicitor"
+   python3 build_facts.py
    ```
 
-   This writes `issues/mlbcfile_2145_simNN/issue_facts.json` and `issue_facts.md`.
-3. Write `story.json` in that folder: headline, dek, lead paragraphs and sections. Copy the
-   previous issue's `story.json` as a template, or hand `issue_facts.md` to Claude and ask for the issue.
+   It finds the newest sim, compares it with the one before it, numbers the issue automatically and
+   writes `issues/mlbcfile_2145_simNN/issue_facts.json` and `issue_facts.md`.
+3. Write `story.json` in that folder (ask Claude for "next issue", or copy the last issue's story.json as a template).
    Sections can drop in a table with `"insert": "standings" | "batting" | "pitching" | "leaders"`.
-4. Render:
+4. Publish:
 
    ```
-   python3 render_issue.py issues/mlbcfile_2145_simNN
+   bash publish.sh
    ```
 
-   - `post.html`: paste into the MLBC team news form (all styles are inline, the same way the Scranton posts work).
-   - `page.html`: the same issue as a standalone web page.
+   This renders the newest issue, rebuilds the front page (`index.html`), commits and pushes to GitHub,
+   and copies `post.html` to the clipboard so you can paste it straight into the MLBC team news form.
 
-Options: `--sim 11` to rebuild an older issue, `--box/--prev` to point at specific BoxScores.txt files.
+Options: `python3 build_facts.py --sim 11` rebuilds an older issue; `bash publish.sh issues/<folder>` publishes a specific one.
 
-## Hosting a fuller version for free
+## Website
 
-`page.html` is a complete static page. To publish it, put the `issues/` folders in a GitHub repo
-(e.g. `ddecoen/seals-solicitor`) and turn on GitHub Pages (Settings → Pages → deploy from `main`).
-Each issue gets a URL like `https://ddecoen.github.io/seals-solicitor/issues/mlbcfile_2145_sim11/page.html`,
-which you can link from the MLBC post. Netlify and Cloudflare Pages also work and are free.
+Hosted free on GitHub Pages from `ddecoen/seals-solicitor`:
+
+- Front page (latest issue + back issues): https://ddecoen.github.io/seals-solicitor/
+- Each issue: `https://ddecoen.github.io/seals-solicitor/issues/<folder>/page.html`
+
+Every MLBC post ends with a link to the front page (set `SITE_URL` at the top of `render_issue.py`).
 
 ## Notes
 

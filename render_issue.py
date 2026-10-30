@@ -20,6 +20,9 @@ import os
 import re
 import sys
 
+SITE_URL = "https://ddecoen.github.io/seals-solicitor/"
+HERE = os.path.dirname(os.path.abspath(__file__))
+
 # ---------------------------------------------------------------- palette/type
 INK = "#1f1b16"        # body text
 PAPER = "#f7f2e6"      # newsprint
@@ -247,11 +250,15 @@ def leaders_table(f, max_rank=10) -> str:
                  note="Ranks are league-wide across all 30 clubs. Rate stats require 3.1 PA or 1 IP per team game.")
 
 
-def footer(f, s) -> str:
+def footer(f, s, folder_name="") -> str:
     extra = s.get("footer", "")
+    link = ""
+    if SITE_URL:
+        link = (f" Read this issue and every back issue at <a href=\"{SITE_URL}\" style=\"color:{RED};font-weight:bold;\">"
+                f"{esc(SITE_URL.replace('https://', '').rstrip('/'))}</a>.")
     return (f"<div style=\"border-top:3px double {RULE};margin-top:26px;padding-top:10px;font-family:{SERIF};font-style:italic;"
             f"font-size:12px;line-height:1.5;color:{MUTED};\">Every figure in this issue is counted from MLBC box scores through "
-            f"{esc(f['through_str'])}. Pythagorean record uses a 1.83 exponent. {md_inline(extra)}</div>")
+            f"{esc(f['through_str'])}. Pythagorean record uses a 1.83 exponent. {md_inline(extra)}{link}</div>")
 
 
 # ---------------------------------------------------------------- assemble
@@ -310,17 +317,85 @@ def page(fragment: str, title: str) -> str:
 """
 
 
+def issue_folders():
+    root = os.path.join(HERE, "issues")
+    if not os.path.isdir(root):
+        return []
+    out = []
+    for d in os.listdir(root):
+        fp = os.path.join(root, d)
+        if os.path.exists(os.path.join(fp, "issue_facts.json")):
+            f = json.load(open(os.path.join(fp, "issue_facts.json")))
+            out.append((f.get("through") or "", f.get("issue_no") or 0, fp))
+    return [x[2] for x in sorted(out)]
+
+
+def build_index() -> str:
+    """Front page listing every rendered issue, newest first."""
+    items = []
+    for fp in reversed(issue_folders()):
+        if not os.path.exists(os.path.join(fp, "story.json")) or not os.path.exists(os.path.join(fp, "page.html")):
+            continue
+        f = json.load(open(os.path.join(fp, "issue_facts.json")))
+        s = json.load(open(os.path.join(fp, "story.json")))
+        if f.get("issue_no"):
+            s["issue_no"] = f["issue_no"]
+        items.append((f, s, os.path.relpath(os.path.join(fp, "page.html"), HERE)))
+    if not items:
+        return ""
+    f0, s0, href0 = items[0]
+    blocks = [masthead(f0, s0)]
+    blocks.append(f"<div style=\"font-family:{SANS};font-size:12px;font-weight:bold;letter-spacing:3px;text-transform:uppercase;"
+                  f"color:{RED};margin-top:22px;\">Latest issue · No. {esc(s0.get('issue_no', ''))}</div>")
+    blocks.append(f"<h1 style=\"font-family:{DISPLAY};font-size:40px;line-height:1.05;font-weight:bold;margin:8px 0 12px 0;\">"
+                  f"<a href=\"{esc(href0)}\" style=\"color:{INK};text-decoration:none;\">{esc(s0['headline'])}</a></h1>")
+    blocks.append(f"<p style=\"font-family:{SERIF};font-style:italic;font-size:20px;line-height:1.4;color:#4a4237;margin:0 0 12px 0;\">"
+                  f"{md_inline(s0['dek'])}</p>")
+    blocks.append(f"<p style=\"margin:0 0 8px 0;\"><a href=\"{esc(href0)}\" style=\"font-family:{SANS};font-size:13px;font-weight:bold;"
+                  f"letter-spacing:1.5px;text-transform:uppercase;color:{RED};\">Read the issue →</a></p>")
+    if len(items) > 1:
+        blocks.append(section_head("Back issues"))
+        for f, s, href in items[1:]:
+            se = f["season"]
+            blocks.append(
+                f"<div style=\"padding:12px 0;border-bottom:1px solid {LINE};\">"
+                f"<div style=\"font-family:{SANS};font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:{MUTED};\">"
+                f"No. {esc(s.get('issue_no', ''))} · Through {esc(f['through_str'])} · {se['W']}-{se['L']}</div>"
+                f"<a href=\"{esc(href)}\" style=\"font-family:{DISPLAY};font-size:22px;font-weight:bold;line-height:1.2;color:{INK};"
+                f"text-decoration:none;\">{esc(s['headline'])}</a>"
+                f"<div style=\"font-family:{SERIF};font-size:15px;line-height:1.45;color:#4a4237;margin-top:4px;\">{md_inline(s['dek'])}</div></div>")
+    blocks.append(f"<div style=\"border-top:3px double {RULE};margin-top:26px;padding-top:10px;font-family:{SERIF};font-style:italic;"
+                  f"font-size:12px;color:{MUTED};\">The San Francisco Seals Solicitor covers the Seals of the MLBC sim league after every sim.</div>")
+    inner = "\n".join(blocks)
+    frag = (f"<div style=\"max-width:760px;margin:0 auto;background:{PAPER};color:{INK};padding:22px 24px 18px 24px;"
+            f"border:1px solid {LINE};font-family:{SERIF};\">\n{inner}\n</div>")
+    return page(frag, "The San Francisco Seals Solicitor")
+
+
 def main():
-    folder = sys.argv[1] if len(sys.argv) > 1 else "."
+    if len(sys.argv) > 1:
+        folder = sys.argv[1]
+    else:
+        ready = [fp for fp in issue_folders() if os.path.exists(os.path.join(fp, "story.json"))]
+        if not ready:
+            sys.exit("No issue folder with a story.json yet.")
+        folder = ready[-1]
     f = json.load(open(os.path.join(folder, "issue_facts.json")))
     s = json.load(open(os.path.join(folder, "story.json")))
+    if f.get("issue_no"):
+        s["issue_no"] = f["issue_no"]
     frag = render(f, s)
     with open(os.path.join(folder, "post.html"), "w") as fh:
         fh.write(frag)
     title = f"Seals Solicitor No. {s.get('issue_no', '')}: {s['headline']}"
     with open(os.path.join(folder, "page.html"), "w") as fh:
         fh.write(page(frag, title))
-    print(f"Wrote {folder}/post.html ({len(frag):,} chars) and page.html")
+    print(f"Wrote {os.path.relpath(folder, HERE)}/post.html ({len(frag):,} chars) and page.html")
+    idx = build_index()
+    if idx:
+        with open(os.path.join(HERE, "index.html"), "w") as fh:
+            fh.write(idx)
+        print("Updated index.html (front page)")
 
 
 if __name__ == "__main__":

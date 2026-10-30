@@ -15,6 +15,7 @@ import argparse
 import json
 import os
 import re
+import sys
 from collections import Counter, defaultdict
 from datetime import date
 
@@ -374,33 +375,57 @@ def find_sims(root):
     return sorted(dirs)
 
 
+HERE = os.path.dirname(os.path.abspath(__file__))
+DEFAULT_SIMS = [os.path.dirname(HERE), os.path.expanduser("~/Downloads/MLBC Sim Files")]
+
+
+def next_issue_no(issues_dir, out):
+    """Keep the number if this folder was built before, else one more than the highest so far."""
+    nums = {}
+    if os.path.isdir(issues_dir):
+        for d in os.listdir(issues_dir):
+            fp = os.path.join(issues_dir, d, "issue_facts.json")
+            if os.path.exists(fp):
+                n = json.load(open(fp)).get("issue_no")
+                if n:
+                    nums[os.path.abspath(os.path.join(issues_dir, d))] = n
+    return nums.get(os.path.abspath(out)) or (max(nums.values(), default=0) + 1)
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("sims_dir", nargs="?", help="folder holding mlbcfile_YYYY_simNN folders")
+    ap.add_argument("sims_dir", nargs="?", help="folder holding mlbcfile_YYYY_simNN folders "
+                    "(default: the folder this script sits in, or ~/Downloads/MLBC Sim Files)")
     ap.add_argument("--sim", type=int, help="sim number to report (default: latest)")
     ap.add_argument("--box", help="BoxScores.txt to report on (instead of sims_dir)")
     ap.add_argument("--prev", help="previous sim's BoxScores.txt (games in it are excluded from 'this sim')")
-    ap.add_argument("--issue", type=int, help="issue number")
+    ap.add_argument("--issue", type=int, help="issue number (default: next number automatically)")
     ap.add_argument("--team", default=TEAM)
     ap.add_argument("--out", help="output folder")
     a = ap.parse_args()
 
     tag = "issue"
-    if a.sims_dir:
-        sims = find_sims(a.sims_dir)
+    if not a.box:
+        roots = [a.sims_dir] if a.sims_dir else DEFAULT_SIMS
+        sims = next((s for r in roots if os.path.isdir(os.path.expanduser(r)) for s in [find_sims(r)] if s), None)
+        if not sims:
+            sys.exit(f"No mlbcfile_*_simNN folders with BoxScores.txt found in: {', '.join(roots)}")
         idx = next(i for i, s in enumerate(sims) if s[0] == a.sim) if a.sim else len(sims) - 1
         a.box = sims[idx][1]
         a.prev = sims[idx - 1][1] if idx > 0 else None
         tag = sims[idx][2]
-    f = build(a.box, a.prev, a.team, a.issue)
-    out = a.out or os.path.join("issues", tag)
+    issues_dir = os.path.join(HERE, "issues")
+    out = a.out or os.path.join(issues_dir, tag)
+    issue_no = a.issue or next_issue_no(issues_dir, out)
+    f = build(a.box, a.prev, a.team, issue_no)
     os.makedirs(out, exist_ok=True)
     with open(os.path.join(out, "issue_facts.json"), "w") as fh:
         json.dump(f, fh, indent=1, default=str)
     with open(os.path.join(out, "issue_facts.md"), "w") as fh:
         fh.write(brief(f))
-    print(f"Wrote {out}/issue_facts.json and issue_facts.md "
+    print(f"Issue No. {issue_no}: wrote {os.path.relpath(out, HERE)}/issue_facts.json and issue_facts.md "
           f"({len(f['log'])} Seals games, {f['period_start_str']} - {f['through_str']})")
+    print(f"Next: write story.json in that folder (or ask Claude), then run: bash publish.sh")
 
 
 if __name__ == "__main__":
