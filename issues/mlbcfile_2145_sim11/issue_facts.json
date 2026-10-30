@@ -1,0 +1,2988 @@
+{
+ "team": "San Francisco",
+ "team_full": "San Francisco Seals",
+ "issue_no": 1,
+ "through": "2145-07-21",
+ "through_str": "July 21, 2145",
+ "period_start": "2145-07-12",
+ "period_start_str": "July 12",
+ "league": "RL",
+ "division": "RL West",
+ "season": {
+  "W": 56,
+  "L": 38,
+  "RS": 509,
+  "RA": 467,
+  "home": [
+   31,
+   17
+  ],
+  "road": [
+   25,
+   21
+  ],
+  "one_run": [
+   20,
+   9
+  ],
+  "extras": [
+   6,
+   1
+  ],
+  "streak": "L3",
+  "last10": "6-4",
+  "G": 94,
+  "pct": 0.5957446808510638,
+  "pyth_W": 50.7
+ },
+ "prior": {
+  "W": 50,
+  "L": 34,
+  "RS": 448,
+  "RA": 410,
+  "home": [
+   25,
+   16
+  ],
+  "road": [
+   25,
+   18
+  ],
+  "one_run": [
+   19,
+   7
+  ],
+  "extras": [
+   6,
+   1
+  ],
+  "streak": "W1",
+  "last10": "7-3",
+  "G": 84,
+  "pct": 0.5952380952380952,
+  "pyth_W": 45.4
+ },
+ "period": {
+  "W": 6,
+  "L": 4,
+  "RS": 61,
+  "RA": 57,
+  "home": [
+   6,
+   1
+  ],
+  "road": [
+   0,
+   3
+  ],
+  "one_run": [
+   1,
+   2
+  ],
+  "extras": [
+   0,
+   0
+  ],
+  "streak": "L3",
+  "last10": "6-4",
+  "G": 10,
+  "pct": 0.6,
+  "pyth_W": 5.3
+ },
+ "standings": [
+  {
+   "team": "Lake Elsinore",
+   "W": 58,
+   "L": 37,
+   "RS": 540,
+   "RA": 448,
+   "home": [
+    24,
+    16
+   ],
+   "road": [
+    34,
+    21
+   ],
+   "one_run": [
+    7,
+    9
+   ],
+   "extras": [
+    2,
+    1
+   ],
+   "streak": "W6",
+   "last10": "7-3",
+   "G": 95,
+   "pct": 0.6105263157894737,
+   "pyth_W": 55.5,
+   "GB": 0.0
+  },
+  {
+   "team": "San Francisco",
+   "W": 56,
+   "L": 38,
+   "RS": 509,
+   "RA": 467,
+   "home": [
+    31,
+    17
+   ],
+   "road": [
+    25,
+    21
+   ],
+   "one_run": [
+    20,
+    9
+   ],
+   "extras": [
+    6,
+    1
+   ],
+   "streak": "L3",
+   "last10": "6-4",
+   "G": 94,
+   "pct": 0.5957446808510638,
+   "pyth_W": 50.7,
+   "GB": 1.5
+  },
+  {
+   "team": "Omaha",
+   "W": 47,
+   "L": 48,
+   "RS": 451,
+   "RA": 499,
+   "home": [
+    21,
+    26
+   ],
+   "road": [
+    26,
+    22
+   ],
+   "one_run": [
+    17,
+    10
+   ],
+   "extras": [
+    5,
+    3
+   ],
+   "streak": "W1",
+   "last10": "3-7",
+   "G": 95,
+   "pct": 0.49473684210526314,
+   "pyth_W": 43.1,
+   "GB": 11.0
+  },
+  {
+   "team": "Oklahoma City",
+   "W": 44,
+   "L": 48,
+   "RS": 500,
+   "RA": 449,
+   "home": [
+    19,
+    20
+   ],
+   "road": [
+    25,
+    28
+   ],
+   "one_run": [
+    12,
+    17
+   ],
+   "extras": [
+    3,
+    8
+   ],
+   "streak": "W1",
+   "last10": "4-6",
+   "G": 92,
+   "pct": 0.4782608695652174,
+   "pyth_W": 50.5,
+   "GB": 12.5
+  },
+  {
+   "team": "Las Vegas",
+   "W": 41,
+   "L": 56,
+   "RS": 458,
+   "RA": 500,
+   "home": [
+    25,
+    31
+   ],
+   "road": [
+    16,
+    25
+   ],
+   "one_run": [
+    10,
+    13
+   ],
+   "extras": [
+    3,
+    5
+   ],
+   "streak": "W5",
+   "last10": "7-3",
+   "G": 97,
+   "pct": 0.422680412371134,
+   "pyth_W": 44.6,
+   "GB": 18.0
+  }
+ ],
+ "standings_prev": [
+  {
+   "team": "Lake Elsinore",
+   "W": 52,
+   "L": 35,
+   "RS": 491,
+   "RA": 417,
+   "home": [
+    24,
+    14
+   ],
+   "road": [
+    28,
+    21
+   ],
+   "one_run": [
+    7,
+    9
+   ],
+   "extras": [
+    2,
+    1
+   ],
+   "streak": "W1",
+   "last10": "6-4",
+   "G": 87,
+   "pct": 0.5977011494252874,
+   "pyth_W": 50.0,
+   "GB": 0.0
+  },
+  {
+   "team": "San Francisco",
+   "W": 50,
+   "L": 34,
+   "RS": 448,
+   "RA": 410,
+   "home": [
+    25,
+    16
+   ],
+   "road": [
+    25,
+    18
+   ],
+   "one_run": [
+    19,
+    7
+   ],
+   "extras": [
+    6,
+    1
+   ],
+   "streak": "W1",
+   "last10": "7-3",
+   "G": 84,
+   "pct": 0.5952380952380952,
+   "pyth_W": 45.4,
+   "GB": 0.5
+  },
+  {
+   "team": "Omaha",
+   "W": 45,
+   "L": 42,
+   "RS": 412,
+   "RA": 435,
+   "home": [
+    20,
+    25
+   ],
+   "road": [
+    25,
+    17
+   ],
+   "one_run": [
+    16,
+    8
+   ],
+   "extras": [
+    5,
+    2
+   ],
+   "streak": "W1",
+   "last10": "7-3",
+   "G": 87,
+   "pct": 0.5172413793103449,
+   "pyth_W": 41.3,
+   "GB": 7.0
+  },
+  {
+   "team": "Oklahoma City",
+   "W": 41,
+   "L": 42,
+   "RS": 460,
+   "RA": 406,
+   "home": [
+    18,
+    16
+   ],
+   "road": [
+    23,
+    26
+   ],
+   "one_run": [
+    12,
+    16
+   ],
+   "extras": [
+    3,
+    7
+   ],
+   "streak": "W1",
+   "last10": "6-4",
+   "G": 83,
+   "pct": 0.4939759036144578,
+   "pyth_W": 46.2,
+   "GB": 9.0
+  },
+  {
+   "team": "Las Vegas",
+   "W": 35,
+   "L": 54,
+   "RS": 410,
+   "RA": 465,
+   "home": [
+    20,
+    31
+   ],
+   "road": [
+    15,
+    23
+   ],
+   "one_run": [
+    8,
+    13
+   ],
+   "extras": [
+    3,
+    5
+   ],
+   "streak": "W1",
+   "last10": "2-8",
+   "G": 89,
+   "pct": 0.39325842696629215,
+   "pyth_W": 39.4,
+   "GB": 18.0
+  }
+ ],
+ "league_standings": {
+  "RL East": [
+   {
+    "team": "Dayton",
+    "W": 55,
+    "L": 40,
+    "RS": 534,
+    "RA": 455,
+    "home": [
+     25,
+     19
+    ],
+    "road": [
+     30,
+     21
+    ],
+    "one_run": [
+     8,
+     12
+    ],
+    "extras": [
+     6,
+     5
+    ],
+    "streak": "L1",
+    "last10": "6-4",
+    "G": 95,
+    "pct": 0.5789473684210527,
+    "pyth_W": 54.4,
+    "GB": 0.0
+   },
+   {
+    "team": "Richmond",
+    "W": 47,
+    "L": 47,
+    "RS": 512,
+    "RA": 449,
+    "home": [
+     27,
+     24
+    ],
+    "road": [
+     20,
+     23
+    ],
+    "one_run": [
+     13,
+     15
+    ],
+    "extras": [
+     2,
+     6
+    ],
+    "streak": "W3",
+    "last10": "5-5",
+    "G": 94,
+    "pct": 0.5,
+    "pyth_W": 52.6,
+    "GB": 7.5
+   },
+   {
+    "team": "Bangor",
+    "W": 45,
+    "L": 50,
+    "RS": 428,
+    "RA": 482,
+    "home": [
+     24,
+     26
+    ],
+    "road": [
+     21,
+     24
+    ],
+    "one_run": [
+     19,
+     16
+    ],
+    "extras": [
+     7,
+     4
+    ],
+    "streak": "W1",
+    "last10": "5-5",
+    "G": 95,
+    "pct": 0.47368421052631576,
+    "pyth_W": 42.4,
+    "GB": 10.0
+   },
+   {
+    "team": "Norwich",
+    "W": 41,
+    "L": 55,
+    "RS": 399,
+    "RA": 484,
+    "home": [
+     19,
+     27
+    ],
+    "road": [
+     22,
+     28
+    ],
+    "one_run": [
+     11,
+     16
+    ],
+    "extras": [
+     6,
+     4
+    ],
+    "streak": "L2",
+    "last10": "4-6",
+    "G": 96,
+    "pct": 0.4270833333333333,
+    "pyth_W": 39.6,
+    "GB": 14.5
+   },
+   {
+    "team": "Rome",
+    "W": 36,
+    "L": 59,
+    "RS": 428,
+    "RA": 538,
+    "home": [
+     22,
+     27
+    ],
+    "road": [
+     14,
+     32
+    ],
+    "one_run": [
+     12,
+     10
+    ],
+    "extras": [
+     3,
+     5
+    ],
+    "streak": "L2",
+    "last10": "3-7",
+    "G": 95,
+    "pct": 0.37894736842105264,
+    "pyth_W": 37.7,
+    "GB": 19.0
+   }
+  ],
+  "RL Central": [
+   {
+    "team": "Erie",
+    "W": 58,
+    "L": 38,
+    "RS": 446,
+    "RA": 411,
+    "home": [
+     30,
+     17
+    ],
+    "road": [
+     28,
+     21
+    ],
+    "one_run": [
+     17,
+     7
+    ],
+    "extras": [
+     4,
+     3
+    ],
+    "streak": "W1",
+    "last10": "7-3",
+    "G": 96,
+    "pct": 0.6041666666666666,
+    "pyth_W": 51.6,
+    "GB": 0.0
+   },
+   {
+    "team": "Peoria",
+    "W": 55,
+    "L": 43,
+    "RS": 509,
+    "RA": 474,
+    "home": [
+     32,
+     17
+    ],
+    "road": [
+     23,
+     26
+    ],
+    "one_run": [
+     20,
+     15
+    ],
+    "extras": [
+     7,
+     3
+    ],
+    "streak": "L1",
+    "last10": "4-6",
+    "G": 98,
+    "pct": 0.5612244897959183,
+    "pyth_W": 52.2,
+    "GB": 4.0
+   },
+   {
+    "team": "Midland",
+    "W": 54,
+    "L": 43,
+    "RS": 518,
+    "RA": 437,
+    "home": [
+     24,
+     21
+    ],
+    "road": [
+     30,
+     22
+    ],
+    "one_run": [
+     13,
+     15
+    ],
+    "extras": [
+     6,
+     5
+    ],
+    "streak": "W2",
+    "last10": "5-5",
+    "G": 97,
+    "pct": 0.5567010309278351,
+    "pyth_W": 56.0,
+    "GB": 4.5
+   },
+   {
+    "team": "Sugar Land",
+    "W": 39,
+    "L": 54,
+    "RS": 470,
+    "RA": 572,
+    "home": [
+     20,
+     34
+    ],
+    "road": [
+     19,
+     20
+    ],
+    "one_run": [
+     17,
+     18
+    ],
+    "extras": [
+     7,
+     6
+    ],
+    "streak": "L2",
+    "last10": "3-7",
+    "G": 93,
+    "pct": 0.41935483870967744,
+    "pyth_W": 38.2,
+    "GB": 17.5
+   },
+   {
+    "team": "Auckland",
+    "W": 38,
+    "L": 58,
+    "RS": 527,
+    "RA": 564,
+    "home": [
+     21,
+     28
+    ],
+    "road": [
+     17,
+     30
+    ],
+    "one_run": [
+     7,
+     21
+    ],
+    "extras": [
+     1,
+     9
+    ],
+    "streak": "L1",
+    "last10": "5-5",
+    "G": 96,
+    "pct": 0.3958333333333333,
+    "pyth_W": 45.0,
+    "GB": 20.0
+   }
+  ],
+  "RL West": [
+   {
+    "team": "Lake Elsinore",
+    "W": 58,
+    "L": 37,
+    "RS": 540,
+    "RA": 448,
+    "home": [
+     24,
+     16
+    ],
+    "road": [
+     34,
+     21
+    ],
+    "one_run": [
+     7,
+     9
+    ],
+    "extras": [
+     2,
+     1
+    ],
+    "streak": "W6",
+    "last10": "7-3",
+    "G": 95,
+    "pct": 0.6105263157894737,
+    "pyth_W": 55.5,
+    "GB": 0.0
+   },
+   {
+    "team": "San Francisco",
+    "W": 56,
+    "L": 38,
+    "RS": 509,
+    "RA": 467,
+    "home": [
+     31,
+     17
+    ],
+    "road": [
+     25,
+     21
+    ],
+    "one_run": [
+     20,
+     9
+    ],
+    "extras": [
+     6,
+     1
+    ],
+    "streak": "L3",
+    "last10": "6-4",
+    "G": 94,
+    "pct": 0.5957446808510638,
+    "pyth_W": 50.7,
+    "GB": 1.5
+   },
+   {
+    "team": "Omaha",
+    "W": 47,
+    "L": 48,
+    "RS": 451,
+    "RA": 499,
+    "home": [
+     21,
+     26
+    ],
+    "road": [
+     26,
+     22
+    ],
+    "one_run": [
+     17,
+     10
+    ],
+    "extras": [
+     5,
+     3
+    ],
+    "streak": "W1",
+    "last10": "3-7",
+    "G": 95,
+    "pct": 0.49473684210526314,
+    "pyth_W": 43.1,
+    "GB": 11.0
+   },
+   {
+    "team": "Oklahoma City",
+    "W": 44,
+    "L": 48,
+    "RS": 500,
+    "RA": 449,
+    "home": [
+     19,
+     20
+    ],
+    "road": [
+     25,
+     28
+    ],
+    "one_run": [
+     12,
+     17
+    ],
+    "extras": [
+     3,
+     8
+    ],
+    "streak": "W1",
+    "last10": "4-6",
+    "G": 92,
+    "pct": 0.4782608695652174,
+    "pyth_W": 50.5,
+    "GB": 12.5
+   },
+   {
+    "team": "Las Vegas",
+    "W": 41,
+    "L": 56,
+    "RS": 458,
+    "RA": 500,
+    "home": [
+     25,
+     31
+    ],
+    "road": [
+     16,
+     25
+    ],
+    "one_run": [
+     10,
+     13
+    ],
+    "extras": [
+     3,
+     5
+    ],
+    "streak": "W5",
+    "last10": "7-3",
+    "G": 97,
+    "pct": 0.422680412371134,
+    "pyth_W": 44.6,
+    "GB": 18.0
+   }
+  ]
+ },
+ "log": [
+  {
+   "date": "2145-07-12",
+   "date_str": "July 12",
+   "home": true,
+   "opp": "Midland",
+   "opp_label": "Midland",
+   "score": "4-2",
+   "R": 4,
+   "RA": 2,
+   "H": 9,
+   "won": true,
+   "result": "W",
+   "innings": 9,
+   "potg": "Joe Flynn",
+   "potg_is_seal": true,
+   "starter": "Wendell Sanders",
+   "starter_line": {
+    "outs": 24,
+    "H": 5,
+    "R": 2,
+    "ER": 2,
+    "BB": 1,
+    "SO": 3,
+    "HR": 1
+   },
+   "starter_ip": "8",
+   "game_score": 66,
+   "decisions": {
+    "L": "Rudy Meylan (MID)",
+    "W": "Wendell Sanders",
+    "S": "Clarence Kampen"
+   },
+   "seal_hr": [
+    "Joe Flynn"
+   ],
+   "att": 28903
+  },
+  {
+   "date": "2145-07-13",
+   "date_str": "July 13",
+   "home": true,
+   "opp": "Las Vegas",
+   "opp_label": "Las Vegas",
+   "score": "1-9",
+   "R": 1,
+   "RA": 9,
+   "H": 7,
+   "won": false,
+   "result": "L",
+   "innings": 9,
+   "potg": "Forrest Fenn (LV)",
+   "potg_is_seal": false,
+   "starter": "Woodrow Flowers",
+   "starter_line": {
+    "outs": 11,
+    "H": 9,
+    "R": 5,
+    "ER": 2,
+    "BB": 3,
+    "SO": 1,
+    "HR": 0
+   },
+   "starter_ip": "3 2/3",
+   "game_score": 27,
+   "decisions": {
+    "W": "Forrest Fenn (LV)",
+    "L": "Woodrow Flowers"
+   },
+   "seal_hr": [],
+   "att": 21550
+  },
+  {
+   "date": "2145-07-14",
+   "date_str": "July 14",
+   "home": true,
+   "opp": "Las Vegas",
+   "opp_label": "Las Vegas",
+   "score": "6-4",
+   "R": 6,
+   "RA": 4,
+   "H": 10,
+   "won": true,
+   "result": "W",
+   "innings": 9,
+   "potg": "Larry June",
+   "potg_is_seal": true,
+   "starter": "Tyree Forkin",
+   "starter_line": {
+    "outs": 19,
+    "H": 6,
+    "R": 3,
+    "ER": 1,
+    "BB": 2,
+    "SO": 10,
+    "HR": 0
+   },
+   "starter_ip": "6 1/3",
+   "game_score": 61,
+   "decisions": {
+    "L": "Joe Bianchi (LV)",
+    "W": "Tyree Forkin",
+    "S": "Lew Ramos"
+   },
+   "seal_hr": [
+    "Larry June"
+   ],
+   "att": 21116
+  },
+  {
+   "date": "2145-07-15",
+   "date_str": "July 15",
+   "home": true,
+   "opp": "Las Vegas",
+   "opp_label": "Las Vegas",
+   "score": "8-2",
+   "R": 8,
+   "RA": 2,
+   "H": 11,
+   "won": true,
+   "result": "W",
+   "innings": 9,
+   "potg": "Sung Jinwoo",
+   "potg_is_seal": true,
+   "starter": "Raymond Holt",
+   "starter_line": {
+    "outs": 18,
+    "H": 4,
+    "R": 2,
+    "ER": 2,
+    "BB": 1,
+    "SO": 4,
+    "HR": 1
+   },
+   "starter_ip": "6",
+   "game_score": 59,
+   "decisions": {
+    "L": "Murray Lewis (LV)",
+    "W": "Raymond Holt",
+    "S": "Alfonso Cradle"
+   },
+   "seal_hr": [
+    "Sung Jinwoo",
+    "Larry June",
+    "Paul Wilkerson"
+   ],
+   "att": 19333
+  },
+  {
+   "date": "2145-07-16",
+   "date_str": "July 16",
+   "home": true,
+   "opp": "Omaha",
+   "opp_label": "Omaha",
+   "score": "10-9",
+   "R": 10,
+   "RA": 9,
+   "H": 16,
+   "won": true,
+   "result": "W",
+   "innings": 9,
+   "potg": "Paul Wilkerson",
+   "potg_is_seal": true,
+   "starter": "Manuel Tarbox",
+   "starter_line": {
+    "outs": 17,
+    "H": 7,
+    "R": 5,
+    "ER": 4,
+    "BB": 1,
+    "SO": 4,
+    "HR": 1
+   },
+   "starter_ip": "5 2/3",
+   "game_score": 40,
+   "decisions": {
+    "L": "Brian Edwards (OMA)",
+    "W": "Jesus Perrins"
+   },
+   "seal_hr": [
+    "Bill Sprecher",
+    "Roberto Larimore"
+   ],
+   "att": 28215
+  },
+  {
+   "date": "2145-07-17",
+   "date_str": "July 17",
+   "home": true,
+   "opp": "Omaha",
+   "opp_label": "Omaha",
+   "score": "14-4",
+   "R": 14,
+   "RA": 4,
+   "H": 16,
+   "won": true,
+   "result": "W",
+   "innings": 9,
+   "potg": "Bill Sprecher",
+   "potg_is_seal": true,
+   "starter": "Wendell Sanders",
+   "starter_line": {
+    "outs": 18,
+    "H": 8,
+    "R": 4,
+    "ER": 4,
+    "BB": 3,
+    "SO": 5,
+    "HR": 1
+   },
+   "starter_ip": "6",
+   "game_score": 42,
+   "decisions": {
+    "L": "RyLee Crandall (OMA)",
+    "W": "Wendell Sanders"
+   },
+   "seal_hr": [
+    "Bill Sprecher",
+    "Michael Sirin",
+    "Paul Wilkerson"
+   ],
+   "att": 26400
+  },
+  {
+   "date": "2145-07-18",
+   "date_str": "July 18",
+   "home": true,
+   "opp": "Omaha",
+   "opp_label": "Omaha",
+   "score": "9-5",
+   "R": 9,
+   "RA": 5,
+   "H": 13,
+   "won": true,
+   "result": "W",
+   "innings": 9,
+   "potg": "Michael Sirin",
+   "potg_is_seal": true,
+   "starter": "Woodrow Flowers",
+   "starter_line": {
+    "outs": 18,
+    "H": 8,
+    "R": 2,
+    "ER": 1,
+    "BB": 2,
+    "SO": 3,
+    "HR": 0
+   },
+   "starter_ip": "6",
+   "game_score": 51,
+   "decisions": {
+    "L": "Harry Fletcher (OMA)",
+    "W": "Woodrow Flowers"
+   },
+   "seal_hr": [
+    "Sung Jinwoo",
+    "Michael Sirin 2"
+   ],
+   "att": 27687
+  },
+  {
+   "date": "2145-07-19",
+   "date_str": "July 19",
+   "home": false,
+   "opp": "Richmond",
+   "opp_label": "@ Richmond",
+   "score": "3-14",
+   "R": 3,
+   "RA": 14,
+   "H": 6,
+   "won": false,
+   "result": "L",
+   "innings": 9,
+   "potg": "Arnold Anderson (RIC)",
+   "potg_is_seal": false,
+   "starter": "Tyree Forkin",
+   "starter_line": {
+    "outs": 7,
+    "H": 7,
+    "R": 7,
+    "ER": 7,
+    "BB": 2,
+    "SO": 4,
+    "HR": 1
+   },
+   "starter_ip": "2 1/3",
+   "game_score": 17,
+   "decisions": {
+    "L": "Tyree Forkin",
+    "W": "John Adam (RIC)"
+   },
+   "seal_hr": [
+    "Sung Jinwoo"
+   ],
+   "att": 39145
+  },
+  {
+   "date": "2145-07-20",
+   "date_str": "July 20",
+   "home": false,
+   "opp": "Richmond",
+   "opp_label": "@ Richmond",
+   "score": "3-4",
+   "R": 3,
+   "RA": 4,
+   "H": 4,
+   "won": false,
+   "result": "L",
+   "innings": 9,
+   "potg": "Tariq Bacon (RIC)",
+   "potg_is_seal": false,
+   "starter": "Raymond Holt",
+   "starter_line": {
+    "outs": 18,
+    "H": 5,
+    "R": 2,
+    "ER": 2,
+    "BB": 2,
+    "SO": 3,
+    "HR": 0
+   },
+   "starter_ip": "6",
+   "game_score": 55,
+   "decisions": {
+    "L": "Raymond Holt",
+    "W": "Tariq Bacon (RIC)",
+    "S": "Randy Philbrook (RIC)"
+   },
+   "seal_hr": [
+    "Bill Sprecher",
+    "Joe Flynn"
+   ],
+   "att": 38962
+  },
+  {
+   "date": "2145-07-21",
+   "date_str": "July 21",
+   "home": false,
+   "opp": "Richmond",
+   "opp_label": "@ Richmond",
+   "score": "3-4",
+   "R": 3,
+   "RA": 4,
+   "H": 6,
+   "won": false,
+   "result": "L",
+   "innings": 9,
+   "potg": "Tanka Jahari (RIC)",
+   "potg_is_seal": false,
+   "starter": "Manuel Tarbox",
+   "starter_line": {
+    "outs": 21,
+    "H": 6,
+    "R": 2,
+    "ER": 2,
+    "BB": 1,
+    "SO": 6,
+    "HR": 2
+   },
+   "starter_ip": "7",
+   "game_score": 62,
+   "decisions": {
+    "L": "Alfonso Cradle",
+    "W": "Benji McCollum (RIC)",
+    "S": "Randy Philbrook (RIC)"
+   },
+   "seal_hr": [],
+   "att": 38975
+  }
+ ],
+ "batting_period": [
+  {
+   "name": "Paul Wilkerson",
+   "AB": 28,
+   "R": 6,
+   "H": 12,
+   "BI": 10,
+   "BB": 3,
+   "SO": 7,
+   "G": 8,
+   "HR": 2,
+   "2B": 1,
+   "PA": 31,
+   "AVG": 0.42857142857142855,
+   "OBP": 0.4838709677419355,
+   "SLG": 0.6785714285714286,
+   "OPS": 1.162442396313364,
+   "3B": 0,
+   "SB": 0
+  },
+  {
+   "name": "Sung Jinwoo",
+   "AB": 30,
+   "R": 4,
+   "H": 9,
+   "BI": 8,
+   "BB": 6,
+   "SO": 6,
+   "G": 9,
+   "2B": 3,
+   "HR": 3,
+   "PA": 36,
+   "AVG": 0.3,
+   "OBP": 0.4166666666666667,
+   "SLG": 0.7,
+   "OPS": 1.1166666666666667,
+   "3B": 0,
+   "SB": 0
+  },
+  {
+   "name": "Bill Sprecher",
+   "AB": 31,
+   "R": 7,
+   "H": 11,
+   "BI": 7,
+   "BB": 2,
+   "SO": 10,
+   "G": 9,
+   "2B": 1,
+   "HR": 3,
+   "PA": 33,
+   "AVG": 0.3548387096774194,
+   "OBP": 0.3939393939393939,
+   "SLG": 0.6774193548387096,
+   "OPS": 1.0713587487781036,
+   "3B": 0,
+   "SB": 0
+  },
+  {
+   "name": "Joe Flynn",
+   "AB": 32,
+   "R": 7,
+   "H": 9,
+   "BI": 7,
+   "BB": 7,
+   "SO": 4,
+   "G": 9,
+   "HR": 2,
+   "SB": 1,
+   "2B": 2,
+   "PA": 39,
+   "AVG": 0.28125,
+   "OBP": 0.41025641025641024,
+   "SLG": 0.53125,
+   "OPS": 0.9415064102564102,
+   "3B": 0
+  },
+  {
+   "name": "Michael Sirin",
+   "AB": 33,
+   "R": 7,
+   "H": 9,
+   "BI": 10,
+   "BB": 3,
+   "SO": 2,
+   "G": 8,
+   "2B": 2,
+   "HR": 3,
+   "SB": 1,
+   "PA": 36,
+   "AVG": 0.2727272727272727,
+   "OBP": 0.3333333333333333,
+   "SLG": 0.6060606060606061,
+   "OPS": 0.9393939393939394,
+   "3B": 0
+  },
+  {
+   "name": "Larry June",
+   "AB": 32,
+   "R": 9,
+   "H": 10,
+   "BI": 6,
+   "BB": 2,
+   "SO": 4,
+   "G": 8,
+   "HR": 2,
+   "2B": 2,
+   "SB": 1,
+   "PA": 34,
+   "AVG": 0.3125,
+   "OBP": 0.35294117647058826,
+   "SLG": 0.5625,
+   "OPS": 0.9154411764705883,
+   "3B": 0
+  },
+  {
+   "name": "Roberto Larimore",
+   "AB": 36,
+   "R": 6,
+   "H": 10,
+   "BI": 3,
+   "BB": 2,
+   "SO": 1,
+   "G": 9,
+   "HR": 1,
+   "3B": 1,
+   "2B": 1,
+   "PA": 38,
+   "AVG": 0.2777777777777778,
+   "OBP": 0.3157894736842105,
+   "SLG": 0.4444444444444444,
+   "OPS": 0.7602339181286549,
+   "SB": 0
+  },
+  {
+   "name": "Joe McNiell",
+   "AB": 31,
+   "R": 5,
+   "H": 8,
+   "BI": 2,
+   "BB": 3,
+   "SO": 10,
+   "G": 9,
+   "2B": 2,
+   "SB": 3,
+   "3B": 1,
+   "PA": 34,
+   "AVG": 0.25806451612903225,
+   "OBP": 0.3235294117647059,
+   "SLG": 0.3870967741935484,
+   "OPS": 0.7106261859582543,
+   "HR": 0
+  },
+  {
+   "name": "Bryant Aly",
+   "AB": 34,
+   "R": 2,
+   "H": 8,
+   "BI": 2,
+   "BB": 3,
+   "SO": 7,
+   "G": 9,
+   "PA": 37,
+   "AVG": 0.23529411764705882,
+   "OBP": 0.2972972972972973,
+   "SLG": 0.23529411764705882,
+   "OPS": 0.5325914149443561,
+   "2B": 0,
+   "3B": 0,
+   "HR": 0,
+   "SB": 0
+  },
+  {
+   "name": "Burton Guster",
+   "AB": 39,
+   "R": 6,
+   "H": 8,
+   "BI": 3,
+   "BB": 2,
+   "SO": 12,
+   "G": 10,
+   "SB": 3,
+   "2B": 1,
+   "PA": 41,
+   "AVG": 0.20512820512820512,
+   "OBP": 0.24390243902439024,
+   "SLG": 0.23076923076923078,
+   "OPS": 0.474671669793621,
+   "3B": 0,
+   "HR": 0
+  },
+  {
+   "name": "Frank Craig",
+   "AB": 10,
+   "R": 1,
+   "H": 1,
+   "BI": 1,
+   "BB": 3,
+   "SO": 0,
+   "G": 7,
+   "PA": 13,
+   "AVG": 0.1,
+   "OBP": 0.3076923076923077,
+   "SLG": 0.1,
+   "OPS": 0.4076923076923077,
+   "2B": 0,
+   "3B": 0,
+   "HR": 0,
+   "SB": 0
+  }
+ ],
+ "batting_season": [
+  {
+   "name": "Sung Jinwoo",
+   "AB": 329,
+   "R": 63,
+   "H": 100,
+   "BI": 89,
+   "BB": 56,
+   "SO": 52,
+   "G": 92,
+   "HR": 33,
+   "2B": 16,
+   "PA": 385,
+   "AVG": 0.303951367781155,
+   "OBP": 0.4051948051948052,
+   "SLG": 0.6534954407294833,
+   "OPS": 1.0586902459242884,
+   "3B": 0,
+   "SB": 0
+  },
+  {
+   "name": "Joe Flynn",
+   "AB": 372,
+   "R": 56,
+   "H": 113,
+   "BI": 63,
+   "BB": 37,
+   "SO": 58,
+   "G": 92,
+   "2B": 27,
+   "HR": 17,
+   "SB": 1,
+   "PA": 409,
+   "AVG": 0.30376344086021506,
+   "OBP": 0.36674816625916873,
+   "SLG": 0.5134408602150538,
+   "OPS": 0.8801890264742225,
+   "3B": 0
+  },
+  {
+   "name": "Burton Guster",
+   "AB": 390,
+   "R": 71,
+   "H": 129,
+   "BI": 44,
+   "BB": 37,
+   "SO": 66,
+   "G": 92,
+   "SB": 52,
+   "HR": 10,
+   "2B": 26,
+   "3B": 2,
+   "PA": 427,
+   "AVG": 0.33076923076923076,
+   "OBP": 0.38875878220140514,
+   "SLG": 0.4846153846153846,
+   "OPS": 0.8733741668167898
+  },
+  {
+   "name": "Michael Sirin",
+   "AB": 336,
+   "R": 65,
+   "H": 94,
+   "BI": 58,
+   "BB": 48,
+   "SO": 43,
+   "G": 90,
+   "HR": 14,
+   "2B": 24,
+   "SB": 22,
+   "3B": 1,
+   "PA": 384,
+   "AVG": 0.27976190476190477,
+   "OBP": 0.3697916666666667,
+   "SLG": 0.48214285714285715,
+   "OPS": 0.8519345238095238
+  },
+  {
+   "name": "Larry June",
+   "AB": 352,
+   "R": 49,
+   "H": 95,
+   "BI": 58,
+   "BB": 37,
+   "SO": 53,
+   "G": 89,
+   "HR": 19,
+   "2B": 20,
+   "3B": 1,
+   "SB": 2,
+   "PA": 389,
+   "AVG": 0.26988636363636365,
+   "OBP": 0.3393316195372751,
+   "SLG": 0.4943181818181818,
+   "OPS": 0.833649801355457
+  },
+  {
+   "name": "Paul Wilkerson",
+   "AB": 302,
+   "R": 46,
+   "H": 89,
+   "BI": 34,
+   "BB": 26,
+   "SO": 51,
+   "G": 89,
+   "2B": 15,
+   "HR": 4,
+   "3B": 1,
+   "PA": 328,
+   "AVG": 0.2947019867549669,
+   "OBP": 0.35060975609756095,
+   "SLG": 0.39072847682119205,
+   "OPS": 0.741338232918753,
+   "SB": 0
+  },
+  {
+   "name": "Bryant Aly",
+   "AB": 300,
+   "R": 31,
+   "H": 77,
+   "BI": 37,
+   "BB": 27,
+   "SO": 49,
+   "G": 80,
+   "2B": 7,
+   "3B": 1,
+   "HR": 7,
+   "PA": 327,
+   "AVG": 0.25666666666666665,
+   "OBP": 0.3180428134556575,
+   "SLG": 0.3566666666666667,
+   "OPS": 0.6747094801223241,
+   "SB": 0
+  },
+  {
+   "name": "Bill Sprecher",
+   "AB": 300,
+   "R": 40,
+   "H": 61,
+   "BI": 45,
+   "BB": 27,
+   "SO": 84,
+   "G": 91,
+   "2B": 10,
+   "HR": 14,
+   "3B": 1,
+   "PA": 327,
+   "AVG": 0.20333333333333334,
+   "OBP": 0.2691131498470948,
+   "SLG": 0.38333333333333336,
+   "OPS": 0.6524464831804282,
+   "SB": 0
+  }
+ ],
+ "batting_season_all": [
+  {
+   "name": "Scott Hearn",
+   "AB": 43,
+   "R": 10,
+   "H": 18,
+   "BI": 8,
+   "BB": 2,
+   "SO": 2,
+   "G": 14,
+   "HR": 3,
+   "2B": 1,
+   "PA": 45,
+   "AVG": 0.4186046511627907,
+   "OBP": 0.4444444444444444,
+   "SLG": 0.6511627906976745,
+   "OPS": 1.0956072351421189,
+   "3B": 0,
+   "SB": 0
+  },
+  {
+   "name": "Sung Jinwoo",
+   "AB": 329,
+   "R": 63,
+   "H": 100,
+   "BI": 89,
+   "BB": 56,
+   "SO": 52,
+   "G": 92,
+   "HR": 33,
+   "2B": 16,
+   "PA": 385,
+   "AVG": 0.303951367781155,
+   "OBP": 0.4051948051948052,
+   "SLG": 0.6534954407294833,
+   "OPS": 1.0586902459242884,
+   "3B": 0,
+   "SB": 0
+  },
+  {
+   "name": "Joe Flynn",
+   "AB": 372,
+   "R": 56,
+   "H": 113,
+   "BI": 63,
+   "BB": 37,
+   "SO": 58,
+   "G": 92,
+   "2B": 27,
+   "HR": 17,
+   "SB": 1,
+   "PA": 409,
+   "AVG": 0.30376344086021506,
+   "OBP": 0.36674816625916873,
+   "SLG": 0.5134408602150538,
+   "OPS": 0.8801890264742225,
+   "3B": 0
+  },
+  {
+   "name": "Burton Guster",
+   "AB": 390,
+   "R": 71,
+   "H": 129,
+   "BI": 44,
+   "BB": 37,
+   "SO": 66,
+   "G": 92,
+   "SB": 52,
+   "HR": 10,
+   "2B": 26,
+   "3B": 2,
+   "PA": 427,
+   "AVG": 0.33076923076923076,
+   "OBP": 0.38875878220140514,
+   "SLG": 0.4846153846153846,
+   "OPS": 0.8733741668167898
+  },
+  {
+   "name": "Michael Sirin",
+   "AB": 336,
+   "R": 65,
+   "H": 94,
+   "BI": 58,
+   "BB": 48,
+   "SO": 43,
+   "G": 90,
+   "HR": 14,
+   "2B": 24,
+   "SB": 22,
+   "3B": 1,
+   "PA": 384,
+   "AVG": 0.27976190476190477,
+   "OBP": 0.3697916666666667,
+   "SLG": 0.48214285714285715,
+   "OPS": 0.8519345238095238
+  },
+  {
+   "name": "Larry June",
+   "AB": 352,
+   "R": 49,
+   "H": 95,
+   "BI": 58,
+   "BB": 37,
+   "SO": 53,
+   "G": 89,
+   "HR": 19,
+   "2B": 20,
+   "3B": 1,
+   "SB": 2,
+   "PA": 389,
+   "AVG": 0.26988636363636365,
+   "OBP": 0.3393316195372751,
+   "SLG": 0.4943181818181818,
+   "OPS": 0.833649801355457
+  },
+  {
+   "name": "Mario Martin",
+   "AB": 186,
+   "R": 28,
+   "H": 48,
+   "BI": 26,
+   "BB": 18,
+   "SO": 23,
+   "G": 49,
+   "2B": 11,
+   "HR": 6,
+   "SB": 1,
+   "3B": 1,
+   "PA": 204,
+   "AVG": 0.25806451612903225,
+   "OBP": 0.3235294117647059,
+   "SLG": 0.42473118279569894,
+   "OPS": 0.7482605945604048
+  },
+  {
+   "name": "Paul Wilkerson",
+   "AB": 302,
+   "R": 46,
+   "H": 89,
+   "BI": 34,
+   "BB": 26,
+   "SO": 51,
+   "G": 89,
+   "2B": 15,
+   "HR": 4,
+   "3B": 1,
+   "PA": 328,
+   "AVG": 0.2947019867549669,
+   "OBP": 0.35060975609756095,
+   "SLG": 0.39072847682119205,
+   "OPS": 0.741338232918753,
+   "SB": 0
+  },
+  {
+   "name": "Joe McNiell",
+   "AB": 94,
+   "R": 17,
+   "H": 25,
+   "BI": 12,
+   "BB": 8,
+   "SO": 20,
+   "G": 68,
+   "SB": 10,
+   "2B": 3,
+   "HR": 2,
+   "3B": 1,
+   "PA": 102,
+   "AVG": 0.26595744680851063,
+   "OBP": 0.3235294117647059,
+   "SLG": 0.3829787234042553,
+   "OPS": 0.7065081351689613
+  },
+  {
+   "name": "Roberto Larimore",
+   "AB": 236,
+   "R": 31,
+   "H": 64,
+   "BI": 14,
+   "BB": 19,
+   "SO": 24,
+   "G": 82,
+   "2B": 9,
+   "HR": 3,
+   "SB": 2,
+   "3B": 1,
+   "PA": 255,
+   "AVG": 0.2711864406779661,
+   "OBP": 0.3254901960784314,
+   "SLG": 0.3559322033898305,
+   "OPS": 0.6814223994682619
+  },
+  {
+   "name": "Bryant Aly",
+   "AB": 300,
+   "R": 31,
+   "H": 77,
+   "BI": 37,
+   "BB": 27,
+   "SO": 49,
+   "G": 80,
+   "2B": 7,
+   "3B": 1,
+   "HR": 7,
+   "PA": 327,
+   "AVG": 0.25666666666666665,
+   "OBP": 0.3180428134556575,
+   "SLG": 0.3566666666666667,
+   "OPS": 0.6747094801223241,
+   "SB": 0
+  },
+  {
+   "name": "Bill Sprecher",
+   "AB": 300,
+   "R": 40,
+   "H": 61,
+   "BI": 45,
+   "BB": 27,
+   "SO": 84,
+   "G": 91,
+   "2B": 10,
+   "HR": 14,
+   "3B": 1,
+   "PA": 327,
+   "AVG": 0.20333333333333334,
+   "OBP": 0.2691131498470948,
+   "SLG": 0.38333333333333336,
+   "OPS": 0.6524464831804282,
+   "SB": 0
+  },
+  {
+   "name": "Frank Craig",
+   "AB": 37,
+   "R": 2,
+   "H": 9,
+   "BI": 5,
+   "BB": 4,
+   "SO": 2,
+   "G": 22,
+   "2B": 1,
+   "PA": 41,
+   "AVG": 0.24324324324324326,
+   "OBP": 0.3170731707317073,
+   "SLG": 0.2702702702702703,
+   "OPS": 0.5873434410019776,
+   "3B": 0,
+   "HR": 0,
+   "SB": 0
+  }
+ ],
+ "pitching_period": [
+  {
+   "name": "Wendell Sanders",
+   "G": 2,
+   "GS": 2,
+   "outs": 42,
+   "H": 13,
+   "R": 6,
+   "ER": 6,
+   "BB": 4,
+   "SO": 8,
+   "HR": 2,
+   "W": 2,
+   "L": 0,
+   "S": 0,
+   "BS": 0,
+   "IP": "14",
+   "ERA": 3.857142857142857,
+   "WHIP": 1.2142857142857142,
+   "K9": 5.142857142857143
+  },
+  {
+   "name": "Manuel Tarbox",
+   "G": 2,
+   "GS": 2,
+   "outs": 38,
+   "H": 13,
+   "R": 7,
+   "ER": 6,
+   "BB": 2,
+   "SO": 10,
+   "HR": 3,
+   "W": 0,
+   "L": 0,
+   "S": 0,
+   "BS": 0,
+   "IP": "12 2/3",
+   "ERA": 4.2631578947368425,
+   "WHIP": 1.1842105263157894,
+   "K9": 7.105263157894737
+  },
+  {
+   "name": "Raymond Holt",
+   "G": 2,
+   "GS": 2,
+   "outs": 36,
+   "H": 9,
+   "R": 4,
+   "ER": 4,
+   "BB": 3,
+   "SO": 7,
+   "HR": 1,
+   "W": 1,
+   "L": 1,
+   "S": 0,
+   "BS": 0,
+   "IP": "12",
+   "ERA": 3.0,
+   "WHIP": 1.0,
+   "K9": 5.25
+  },
+  {
+   "name": "Woodrow Flowers",
+   "G": 2,
+   "GS": 2,
+   "outs": 29,
+   "H": 17,
+   "R": 7,
+   "ER": 3,
+   "BB": 5,
+   "SO": 4,
+   "HR": 0,
+   "L": 1,
+   "W": 1,
+   "S": 0,
+   "BS": 0,
+   "IP": "9 2/3",
+   "ERA": 2.793103448275862,
+   "WHIP": 2.2758620689655173,
+   "K9": 3.7241379310344827
+  },
+  {
+   "name": "Tyree Forkin",
+   "G": 2,
+   "GS": 2,
+   "outs": 26,
+   "H": 13,
+   "R": 10,
+   "ER": 8,
+   "BB": 4,
+   "SO": 14,
+   "HR": 1,
+   "W": 1,
+   "L": 1,
+   "S": 0,
+   "BS": 0,
+   "IP": "8 2/3",
+   "ERA": 8.307692307692308,
+   "WHIP": 1.9615384615384615,
+   "K9": 14.538461538461538
+  },
+  {
+   "name": "Clarence Kampen",
+   "G": 4,
+   "GS": 0,
+   "outs": 24,
+   "H": 10,
+   "R": 6,
+   "ER": 6,
+   "BB": 4,
+   "SO": 3,
+   "HR": 1,
+   "S": 1,
+   "BS": 1,
+   "W": 0,
+   "L": 0,
+   "IP": "8",
+   "ERA": 6.75,
+   "WHIP": 1.75,
+   "K9": 3.375
+  },
+  {
+   "name": "Jesus Perrins",
+   "G": 4,
+   "GS": 0,
+   "outs": 17,
+   "H": 5,
+   "R": 4,
+   "ER": 4,
+   "BB": 1,
+   "SO": 6,
+   "HR": 2,
+   "W": 1,
+   "L": 0,
+   "S": 0,
+   "BS": 0,
+   "IP": "5 2/3",
+   "ERA": 6.352941176470588,
+   "WHIP": 1.0588235294117647,
+   "K9": 9.529411764705882
+  },
+  {
+   "name": "Alfonso Cradle",
+   "G": 5,
+   "GS": 0,
+   "outs": 16,
+   "H": 6,
+   "R": 5,
+   "ER": 5,
+   "BB": 2,
+   "SO": 0,
+   "HR": 2,
+   "S": 1,
+   "L": 1,
+   "W": 0,
+   "BS": 0,
+   "IP": "5 1/3",
+   "ERA": 8.4375,
+   "WHIP": 1.5,
+   "K9": 0.0
+  },
+  {
+   "name": "Paul Olivas",
+   "G": 4,
+   "GS": 0,
+   "outs": 13,
+   "H": 6,
+   "R": 5,
+   "ER": 4,
+   "BB": 0,
+   "SO": 2,
+   "HR": 1,
+   "W": 0,
+   "L": 0,
+   "S": 0,
+   "BS": 0,
+   "IP": "4 1/3",
+   "ERA": 8.307692307692308,
+   "WHIP": 1.3846153846153846,
+   "K9": 4.153846153846154
+  },
+  {
+   "name": "Lew Ramos",
+   "G": 4,
+   "GS": 0,
+   "outs": 12,
+   "H": 3,
+   "R": 1,
+   "ER": 1,
+   "BB": 3,
+   "SO": 0,
+   "HR": 0,
+   "S": 1,
+   "W": 0,
+   "L": 0,
+   "BS": 0,
+   "IP": "4",
+   "ERA": 2.25,
+   "WHIP": 1.5,
+   "K9": 0.0
+  },
+  {
+   "name": "Barbeque Hat",
+   "G": 4,
+   "GS": 0,
+   "outs": 8,
+   "H": 7,
+   "R": 2,
+   "ER": 2,
+   "BB": 1,
+   "SO": 1,
+   "HR": 1,
+   "W": 0,
+   "L": 0,
+   "S": 0,
+   "BS": 0,
+   "IP": "2 2/3",
+   "ERA": 6.75,
+   "WHIP": 3.0,
+   "K9": 3.375
+  }
+ ],
+ "pitching_season": [
+  {
+   "name": "Manuel Tarbox",
+   "G": 19,
+   "GS": 19,
+   "outs": 339,
+   "H": 136,
+   "R": 65,
+   "ER": 57,
+   "BB": 37,
+   "SO": 67,
+   "HR": 15,
+   "L": 4,
+   "W": 7,
+   "S": 0,
+   "BS": 0,
+   "IP": "113",
+   "ERA": 4.539823008849558,
+   "WHIP": 1.5309734513274336,
+   "K9": 5.336283185840708
+  },
+  {
+   "name": "Woodrow Flowers",
+   "G": 19,
+   "GS": 19,
+   "outs": 318,
+   "H": 131,
+   "R": 62,
+   "ER": 56,
+   "BB": 27,
+   "SO": 69,
+   "HR": 14,
+   "L": 6,
+   "W": 7,
+   "S": 0,
+   "BS": 0,
+   "IP": "106",
+   "ERA": 4.754716981132075,
+   "WHIP": 1.490566037735849,
+   "K9": 5.8584905660377355
+  },
+  {
+   "name": "Tyree Forkin",
+   "G": 19,
+   "GS": 19,
+   "outs": 296,
+   "H": 109,
+   "R": 67,
+   "ER": 60,
+   "BB": 49,
+   "SO": 106,
+   "HR": 12,
+   "L": 8,
+   "W": 6,
+   "S": 0,
+   "BS": 0,
+   "IP": "98 2/3",
+   "ERA": 5.472972972972973,
+   "WHIP": 1.6013513513513513,
+   "K9": 9.66891891891892
+  },
+  {
+   "name": "Raymond Holt",
+   "G": 19,
+   "GS": 19,
+   "outs": 280,
+   "H": 88,
+   "R": 53,
+   "ER": 47,
+   "BB": 33,
+   "SO": 67,
+   "HR": 10,
+   "W": 4,
+   "L": 9,
+   "S": 0,
+   "BS": 0,
+   "IP": "93 1/3",
+   "ERA": 4.5321428571428575,
+   "WHIP": 1.2964285714285715,
+   "K9": 6.460714285714285
+  },
+  {
+   "name": "Wendell Sanders",
+   "G": 18,
+   "GS": 18,
+   "outs": 343,
+   "H": 97,
+   "R": 38,
+   "ER": 37,
+   "BB": 40,
+   "SO": 56,
+   "HR": 7,
+   "W": 8,
+   "L": 1,
+   "S": 0,
+   "BS": 0,
+   "IP": "114 1/3",
+   "ERA": 2.912536443148688,
+   "WHIP": 1.1982507288629738,
+   "K9": 4.408163265306122
+  },
+  {
+   "name": "Clarence Kampen",
+   "G": 36,
+   "GS": 0,
+   "outs": 202,
+   "H": 80,
+   "R": 34,
+   "ER": 34,
+   "BB": 26,
+   "SO": 35,
+   "HR": 4,
+   "S": 5,
+   "L": 1,
+   "W": 1,
+   "BS": 1,
+   "IP": "67 1/3",
+   "ERA": 4.544554455445544,
+   "WHIP": 1.5742574257425743,
+   "K9": 4.678217821782178
+  },
+  {
+   "name": "Irv Tat",
+   "G": 30,
+   "GS": 0,
+   "outs": 172,
+   "H": 51,
+   "R": 24,
+   "ER": 22,
+   "BB": 28,
+   "SO": 39,
+   "HR": 5,
+   "W": 5,
+   "S": 4,
+   "BS": 1,
+   "L": 0,
+   "IP": "57 1/3",
+   "ERA": 3.453488372093023,
+   "WHIP": 1.377906976744186,
+   "K9": 6.122093023255814
+  },
+  {
+   "name": "Jesus Perrins",
+   "G": 36,
+   "GS": 0,
+   "outs": 158,
+   "H": 41,
+   "R": 23,
+   "ER": 22,
+   "BB": 14,
+   "SO": 30,
+   "HR": 5,
+   "W": 11,
+   "L": 1,
+   "S": 5,
+   "BS": 3,
+   "IP": "52 2/3",
+   "ERA": 3.759493670886076,
+   "WHIP": 1.0443037974683544,
+   "K9": 5.1265822784810124
+  },
+  {
+   "name": "Alfonso Cradle",
+   "G": 32,
+   "GS": 0,
+   "outs": 138,
+   "H": 46,
+   "R": 31,
+   "ER": 27,
+   "BB": 21,
+   "SO": 17,
+   "HR": 10,
+   "S": 6,
+   "W": 5,
+   "L": 6,
+   "BS": 1,
+   "IP": "46",
+   "ERA": 5.282608695652174,
+   "WHIP": 1.4565217391304348,
+   "K9": 3.3260869565217392
+  },
+  {
+   "name": "Paul Olivas",
+   "G": 32,
+   "GS": 0,
+   "outs": 120,
+   "H": 59,
+   "R": 33,
+   "ER": 31,
+   "BB": 19,
+   "SO": 36,
+   "HR": 8,
+   "BS": 5,
+   "S": 2,
+   "L": 1,
+   "W": 0,
+   "IP": "40",
+   "ERA": 6.975,
+   "WHIP": 1.95,
+   "K9": 8.1
+  },
+  {
+   "name": "Barbeque Hat",
+   "G": 27,
+   "GS": 0,
+   "outs": 109,
+   "H": 52,
+   "R": 25,
+   "ER": 20,
+   "BB": 9,
+   "SO": 32,
+   "HR": 6,
+   "BS": 5,
+   "L": 1,
+   "S": 2,
+   "W": 2,
+   "IP": "36 1/3",
+   "ERA": 4.954128440366972,
+   "WHIP": 1.6788990825688073,
+   "K9": 7.926605504587156
+  },
+  {
+   "name": "Lew Ramos",
+   "G": 21,
+   "GS": 0,
+   "outs": 66,
+   "H": 23,
+   "R": 12,
+   "ER": 9,
+   "BB": 8,
+   "SO": 4,
+   "HR": 2,
+   "S": 5,
+   "W": 0,
+   "L": 0,
+   "BS": 0,
+   "IP": "22",
+   "ERA": 3.6818181818181817,
+   "WHIP": 1.4090909090909092,
+   "K9": 1.6363636363636365
+  }
+ ],
+ "leaders": {
+  "HR": {
+   "top": [
+    {
+     "rank": 1,
+     "name": "Sung Jinwoo",
+     "team": "San Francisco",
+     "value": 33
+    },
+    {
+     "rank": 2,
+     "name": "Anthony Micelli",
+     "team": "Chesapeake",
+     "value": 27
+    },
+    {
+     "rank": 3,
+     "name": "John McWhorter",
+     "team": "Erie",
+     "value": 26
+    },
+    {
+     "rank": 4,
+     "name": "Jesse Ryder",
+     "team": "Auckland",
+     "value": 25
+    },
+    {
+     "rank": 4,
+     "name": "Mayday Montgomery",
+     "team": "Lake Elsinore",
+     "value": 25
+    },
+    {
+     "rank": 4,
+     "name": "Ason Unique",
+     "team": "Louisville",
+     "value": 25
+    },
+    {
+     "rank": 4,
+     "name": "Nasir Johnson",
+     "team": "Scranton",
+     "value": 25
+    },
+    {
+     "rank": 8,
+     "name": "Francis Marriott",
+     "team": "Louisville",
+     "value": 24
+    },
+    {
+     "rank": 8,
+     "name": "Ron Singer",
+     "team": "Altoona",
+     "value": 24
+    },
+    {
+     "rank": 10,
+     "name": "Darryl Brittain",
+     "team": "Louisville",
+     "value": 23
+    }
+   ],
+   "seals": [
+    {
+     "rank": 1,
+     "name": "Sung Jinwoo",
+     "team": "San Francisco",
+     "value": 33
+    },
+    {
+     "rank": 24,
+     "name": "Larry June",
+     "team": "San Francisco",
+     "value": 19
+    }
+   ]
+  },
+  "RBI": {
+   "top": [
+    {
+     "rank": 1,
+     "name": "Sung Jinwoo",
+     "team": "San Francisco",
+     "value": 89
+    },
+    {
+     "rank": 2,
+     "name": "Ason Unique",
+     "team": "Louisville",
+     "value": 82
+    },
+    {
+     "rank": 3,
+     "name": "John McWhorter",
+     "team": "Erie",
+     "value": 80
+    },
+    {
+     "rank": 3,
+     "name": "Mayday Montgomery",
+     "team": "Lake Elsinore",
+     "value": 80
+    },
+    {
+     "rank": 5,
+     "name": "Studley Do-Right",
+     "team": "Portland",
+     "value": 79
+    },
+    {
+     "rank": 6,
+     "name": "Sung Peralto",
+     "team": "Auckland",
+     "value": 78
+    },
+    {
+     "rank": 6,
+     "name": "Ron Singer",
+     "team": "Altoona",
+     "value": 78
+    },
+    {
+     "rank": 6,
+     "name": "L.A. Knight",
+     "team": "Rocket City",
+     "value": 78
+    },
+    {
+     "rank": 9,
+     "name": "Jesse Ryder",
+     "team": "Auckland",
+     "value": 76
+    },
+    {
+     "rank": 9,
+     "name": "Lucius Vorenus",
+     "team": "Casper",
+     "value": 76
+    }
+   ],
+   "seals": [
+    {
+     "rank": 1,
+     "name": "Sung Jinwoo",
+     "team": "San Francisco",
+     "value": 89
+    }
+   ]
+  },
+  "AVG": {
+   "top": [
+    {
+     "rank": 1,
+     "name": "Vernon Millikin",
+     "team": "Rome",
+     "value": 0.3925729442970822
+    },
+    {
+     "rank": 2,
+     "name": "Boyd Chester",
+     "team": "Mahoning Valley",
+     "value": 0.38016528925619836
+    },
+    {
+     "rank": 3,
+     "name": "Barry Allen",
+     "team": "Auckland",
+     "value": 0.37967914438502676
+    },
+    {
+     "rank": 4,
+     "name": "Roberto Ennis",
+     "team": "Mahoning Valley",
+     "value": 0.3633633633633634
+    },
+    {
+     "rank": 5,
+     "name": "Lucius Vorenus",
+     "team": "Casper",
+     "value": 0.3589108910891089
+    },
+    {
+     "rank": 6,
+     "name": "Michael Garron",
+     "team": "Mahoning Valley",
+     "value": 0.3556231003039514
+    },
+    {
+     "rank": 7,
+     "name": "Dan Gonzalez",
+     "team": "Peoria",
+     "value": 0.35561497326203206
+    },
+    {
+     "rank": 8,
+     "name": "Duane Black",
+     "team": "Altoona",
+     "value": 0.35233160621761656
+    },
+    {
+     "rank": 9,
+     "name": "Rich Anderson",
+     "team": "Auckland",
+     "value": 0.3487179487179487
+    },
+    {
+     "rank": 10,
+     "name": "Chubbs Peterson",
+     "team": "Maine",
+     "value": 0.34782608695652173
+    }
+   ],
+   "seals": [
+    {
+     "rank": 25,
+     "name": "Burton Guster",
+     "team": "San Francisco",
+     "value": 0.33076923076923076
+    }
+   ]
+  },
+  "OPS": {
+   "top": [
+    {
+     "rank": 1,
+     "name": "Sung Jinwoo",
+     "team": "San Francisco",
+     "value": 1.0586902459242884
+    },
+    {
+     "rank": 2,
+     "name": "Ason Unique",
+     "team": "Louisville",
+     "value": 1.047158011453143
+    },
+    {
+     "rank": 3,
+     "name": "Antione Geary",
+     "team": "Texas",
+     "value": 1.02310306515914
+    },
+    {
+     "rank": 4,
+     "name": "Zan Allen",
+     "team": "Omaha",
+     "value": 1.0084059123269848
+    },
+    {
+     "rank": 5,
+     "name": "Lucius Vorenus",
+     "team": "Casper",
+     "value": 1.0063325554523415
+    },
+    {
+     "rank": 6,
+     "name": "Vernon Millikin",
+     "team": "Rome",
+     "value": 0.9879621286154862
+    },
+    {
+     "rank": 7,
+     "name": "Nasir Johnson",
+     "team": "Scranton",
+     "value": 0.9828780774852415
+    },
+    {
+     "rank": 8,
+     "name": "Paul Triola",
+     "team": "Frisco",
+     "value": 0.9718478324289632
+    },
+    {
+     "rank": 9,
+     "name": "Ron Singer",
+     "team": "Altoona",
+     "value": 0.9656905594405594
+    },
+    {
+     "rank": 10,
+     "name": "Jesse Ryder",
+     "team": "Auckland",
+     "value": 0.953572656808021
+    }
+   ],
+   "seals": [
+    {
+     "rank": 1,
+     "name": "Sung Jinwoo",
+     "team": "San Francisco",
+     "value": 1.0586902459242884
+    }
+   ]
+  },
+  "SB": {
+   "top": [
+    {
+     "rank": 1,
+     "name": "Flash Funk",
+     "team": "Rocket City",
+     "value": 52
+    },
+    {
+     "rank": 1,
+     "name": "Burton Guster",
+     "team": "San Francisco",
+     "value": 52
+    },
+    {
+     "rank": 3,
+     "name": "Alfonso Nieland",
+     "team": "Edmonton",
+     "value": 43
+    },
+    {
+     "rank": 4,
+     "name": "Chad Darensbourg",
+     "team": "Edmonton",
+     "value": 38
+    },
+    {
+     "rank": 5,
+     "name": "Dawson Blue",
+     "team": "Midland",
+     "value": 22
+    },
+    {
+     "rank": 5,
+     "name": "John Selleck",
+     "team": "Midland",
+     "value": 22
+    },
+    {
+     "rank": 5,
+     "name": "Justin Because",
+     "team": "Rocket City",
+     "value": 22
+    },
+    {
+     "rank": 5,
+     "name": "Michael Sirin",
+     "team": "San Francisco",
+     "value": 22
+    },
+    {
+     "rank": 9,
+     "name": "Juan During",
+     "team": "Rome",
+     "value": 20
+    },
+    {
+     "rank": 10,
+     "name": "John Hetherington",
+     "team": "Dayton",
+     "value": 19
+    }
+   ],
+   "seals": [
+    {
+     "rank": 1,
+     "name": "Burton Guster",
+     "team": "San Francisco",
+     "value": 52
+    },
+    {
+     "rank": 5,
+     "name": "Michael Sirin",
+     "team": "San Francisco",
+     "value": 22
+    },
+    {
+     "rank": 25,
+     "name": "Joe McNiell",
+     "team": "San Francisco",
+     "value": 10
+    }
+   ]
+  },
+  "W": {
+   "top": [
+    {
+     "rank": 1,
+     "name": "Benji McCollum",
+     "team": "Richmond",
+     "value": 12
+    },
+    {
+     "rank": 1,
+     "name": "Bray Wyatt",
+     "team": "Oklahoma City",
+     "value": 12
+    },
+    {
+     "rank": 1,
+     "name": "Dave Bussell",
+     "team": "Frisco",
+     "value": 12
+    },
+    {
+     "rank": 4,
+     "name": "Jack Quinn",
+     "team": "Maine",
+     "value": 11
+    },
+    {
+     "rank": 4,
+     "name": "Sucre Wolodarsky",
+     "team": "Chesapeake",
+     "value": 11
+    },
+    {
+     "rank": 4,
+     "name": "Kenneth Tirone",
+     "team": "Peoria",
+     "value": 11
+    },
+    {
+     "rank": 4,
+     "name": "Mark Lawrence",
+     "team": "Lake Elsinore",
+     "value": 11
+    },
+    {
+     "rank": 4,
+     "name": "Jesus Perrins",
+     "team": "San Francisco",
+     "value": 11
+    },
+    {
+     "rank": 4,
+     "name": "Greg Williams",
+     "team": "Erie",
+     "value": 11
+    },
+    {
+     "rank": 10,
+     "name": "Dave Callis",
+     "team": "Dayton",
+     "value": 10
+    }
+   ],
+   "seals": [
+    {
+     "rank": 4,
+     "name": "Jesus Perrins",
+     "team": "San Francisco",
+     "value": 11
+    }
+   ]
+  },
+  "ERA": {
+   "top": [
+    {
+     "rank": 1,
+     "name": "Bray Wyatt",
+     "team": "Oklahoma City",
+     "value": 1.8877118644067796
+    },
+    {
+     "rank": 2,
+     "name": "Ed Breunig",
+     "team": "El Paso",
+     "value": 2.420689655172414
+    },
+    {
+     "rank": 3,
+     "name": "Jim Davenport",
+     "team": "Altoona",
+     "value": 2.7596685082872927
+    },
+    {
+     "rank": 4,
+     "name": "Ralph Bisaillon",
+     "team": "Lake Elsinore",
+     "value": 2.8596059113300494
+    },
+    {
+     "rank": 5,
+     "name": "Alton Morales",
+     "team": "Richmond",
+     "value": 2.8636363636363638
+    },
+    {
+     "rank": 6,
+     "name": "Dave Bussell",
+     "team": "Frisco",
+     "value": 2.88
+    },
+    {
+     "rank": 7,
+     "name": "Benji McCollum",
+     "team": "Richmond",
+     "value": 2.8867924528301887
+    },
+    {
+     "rank": 8,
+     "name": "Wendell Sanders",
+     "team": "San Francisco",
+     "value": 2.912536443148688
+    },
+    {
+     "rank": 9,
+     "name": "Rene Humphreys",
+     "team": "Erie",
+     "value": 2.937823834196891
+    },
+    {
+     "rank": 10,
+     "name": "Kenneth Tirone",
+     "team": "Peoria",
+     "value": 3.3322784810126582
+    }
+   ],
+   "seals": [
+    {
+     "rank": 8,
+     "name": "Wendell Sanders",
+     "team": "San Francisco",
+     "value": 2.912536443148688
+    }
+   ]
+  },
+  "SO": {
+   "top": [
+    {
+     "rank": 1,
+     "name": "Forrest Fenn",
+     "team": "Las Vegas",
+     "value": 154
+    },
+    {
+     "rank": 2,
+     "name": "Shawn Kruse",
+     "team": "Dayton",
+     "value": 136
+    },
+    {
+     "rank": 3,
+     "name": "Benji McCollum",
+     "team": "Richmond",
+     "value": 124
+    },
+    {
+     "rank": 4,
+     "name": "Marcelino Wong",
+     "team": "Bangor",
+     "value": 108
+    },
+    {
+     "rank": 5,
+     "name": "Dave Bussell",
+     "team": "Frisco",
+     "value": 107
+    },
+    {
+     "rank": 6,
+     "name": "Tyree Forkin",
+     "team": "San Francisco",
+     "value": 106
+    },
+    {
+     "rank": 7,
+     "name": "Doc Holliday",
+     "team": "Rome",
+     "value": 104
+    },
+    {
+     "rank": 8,
+     "name": "Jack Quinn",
+     "team": "Maine",
+     "value": 100
+    },
+    {
+     "rank": 8,
+     "name": "Murray Lewis",
+     "team": "Las Vegas",
+     "value": 100
+    },
+    {
+     "rank": 10,
+     "name": "Terrell Alexender",
+     "team": "Altoona",
+     "value": 99
+    }
+   ],
+   "seals": [
+    {
+     "rank": 6,
+     "name": "Tyree Forkin",
+     "team": "San Francisco",
+     "value": 106
+    }
+   ]
+  },
+  "S": {
+   "top": [
+    {
+     "rank": 1,
+     "name": "Jerry Sheekey",
+     "team": "Altoona",
+     "value": 27
+    },
+    {
+     "rank": 2,
+     "name": "Eddie Burns",
+     "team": "Erie",
+     "value": 22
+    },
+    {
+     "rank": 2,
+     "name": "John Ramsey",
+     "team": "Norwich",
+     "value": 22
+    },
+    {
+     "rank": 2,
+     "name": "Oscar Craigen",
+     "team": "Dayton",
+     "value": 22
+    },
+    {
+     "rank": 5,
+     "name": "Stewie Griffin",
+     "team": "Midland",
+     "value": 20
+    },
+    {
+     "rank": 6,
+     "name": "Harvey Rocher",
+     "team": "Rocket City",
+     "value": 19
+    },
+    {
+     "rank": 6,
+     "name": "Cedric Corns",
+     "team": "Wisconsin",
+     "value": 19
+    },
+    {
+     "rank": 8,
+     "name": "Jean-Yves Roy",
+     "team": "Maine",
+     "value": 17
+    },
+    {
+     "rank": 8,
+     "name": "Kent Echols",
+     "team": "Rome",
+     "value": 17
+    },
+    {
+     "rank": 10,
+     "name": "Dexter Bluth",
+     "team": "Chesapeake",
+     "value": 12
+    }
+   ],
+   "seals": [
+    {
+     "rank": 25,
+     "name": "Alfonso Cradle",
+     "team": "San Francisco",
+     "value": 6
+    }
+   ]
+  }
+ },
+ "notables": [
+  "Michael Sirin hit 2 HR on July 18 vs Omaha",
+  "Michael Sirin drove in 5 on July 18"
+ ],
+ "best_start": {
+  "date": "2145-07-12",
+  "date_str": "July 12",
+  "home": true,
+  "opp": "Midland",
+  "opp_label": "Midland",
+  "score": "4-2",
+  "R": 4,
+  "RA": 2,
+  "H": 9,
+  "won": true,
+  "result": "W",
+  "innings": 9,
+  "potg": "Joe Flynn",
+  "potg_is_seal": true,
+  "starter": "Wendell Sanders",
+  "starter_line": {
+   "outs": 24,
+   "H": 5,
+   "R": 2,
+   "ER": 2,
+   "BB": 1,
+   "SO": 3,
+   "HR": 1
+  },
+  "starter_ip": "8",
+  "game_score": 66,
+  "decisions": {
+   "L": "Rudy Meylan (MID)",
+   "W": "Wendell Sanders",
+   "S": "Clarence Kampen"
+  },
+  "seal_hr": [
+   "Joe Flynn"
+  ],
+  "att": 28903
+ },
+ "n_games_league": 1426,
+ "n_games_new_league": 132
+}

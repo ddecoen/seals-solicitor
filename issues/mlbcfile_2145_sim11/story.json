@@ -1,0 +1,69 @@
+{
+  "issue_no": 1,
+  "motto": "All the Seals news fit to print",
+  "kicker": "Seals Beat",
+  "headline": "Seals Win Six of Seven at Home, Then Get Swept in Richmond",
+  "dek": "San Francisco went 6-4 this sim and is 56-38. Lake Elsinore won its last six and now leads the RL West by 1.5 games.",
+  "byline": "By the Solicitor Seals desk",
+  "lead": [
+    "The Seals came home on July 12 a half-game behind Lake Elsinore and played like a first-place team for a week. They beat Midland, took two of three from Las Vegas and swept Omaha, winning six of seven games at home and scoring 52 runs in those seven.",
+    "Then they went to Richmond and scored nine runs in three games. The Flying Squirrels won 14-3, 4-3 and 4-3. Lake Elsinore won six in a row over the same stretch, and the Seals, at 56-38, are 1.5 games out of first."
+  ],
+  "games_heading": "The sim, game by game",
+  "sections": [
+    {
+      "label": "The homestand",
+      "heading": "Wilkerson's double finishes a four-run ninth",
+      "paragraphs": [
+        "The best game of the week was the series opener against Omaha on July 16. The Seals led 6-4 after five innings. Omaha tied it in the eighth and scored three in the top of the ninth to lead 9-6. Larry June doubled with one out, Joe Flynn walked and Roberto Larimore singled June home. Frank Craig's sacrifice fly made it 9-8. Burton Guster, hitting for Bill Sprecher, singled and stole second, and **Paul Wilkerson** doubled to bring both runners home for a 10-9 win.",
+        "That started a sweep. Sprecher homered and was named Player of the Game in a 14-4 win on July 17, and **Michael Sirin** hit two home runs and drove in five in a 9-5 win on July 18. Woodrow Flowers allowed one earned run in six innings that day.",
+        "The homestand opened with **Wendell Sanders** throwing eight innings of two-run ball in a 4-2 win over Midland, the best start of the sim by game score (66). The only home loss was 9-1 to Las Vegas on July 13, when Forrest Fenn, the league leader in strikeouts, held the Seals scoreless for 7 1/3 innings. The next night Tyree Forkin struck out 10 in 6 1/3 innings in a 6-4 win."
+      ]
+    },
+    {
+      "label": "On the road",
+      "heading": "Nine runs in three games at Richmond",
+      "paragraphs": [
+        "Richmond's starters held the Seals down for most of the series. Tariq Bacon allowed two hits in eight innings on July 20, and Benji McCollum allowed four hits in eight innings on July 21 for his 12th win, which ties him for the most in MLBC.",
+        "The last two games were close. On July 20, Raymond Holt allowed one run through six innings, then gave up a leadoff double in the seventh. Richmond scored three times that inning, two on Ramon Colantuono's home run. Sprecher and Flynn homered for the Seals, who scored twice in the ninth and lost 4-3. On July 21, Manuel Tarbox pitched seven innings and left with the game tied 2-2. In the eighth, Tanka Jahari hit a two-run homer off Alfonso Cradle, and Richmond won 4-3.",
+        "The series opener was not close. Forkin allowed seven runs in 2 1/3 innings, Arnold Anderson homered twice and Richmond won 14-3."
+      ]
+    },
+    {
+      "label": "The race",
+      "heading": "Lake Elsinore has the better run differential",
+      "paragraphs": [
+        "The Seals were 50-34 and a half-game out before this sim. They are now 1.5 back. It is a two-team race for now: Omaha, in third, is 11 games out.",
+        "Lake Elsinore has scored 540 runs and allowed 448, a +92 run differential. San Francisco is +42, which by the Pythagorean formula is worth about 51 wins in 94 games. The Seals have 56, mostly because of a 20-9 record in one-run games and a 6-1 record in extra innings."
+      ],
+      "insert": "standings"
+    },
+    {
+      "label": "At the plate",
+      "heading": "Wilkerson hits .429 for the week",
+      "paragraphs": [
+        "Wilkerson went 12-for-28 with 10 RBI, including the walk-off double. Sprecher, who came into the sim hitting under .200, hit three home runs and went 11-for-31. Sirin also hit three home runs and drove in 10.",
+        "At the top of the order, Guster went 8-for-39 with 12 strikeouts, though he stole three more bases."
+      ],
+      "insert": "batting"
+    },
+    {
+      "label": "On the mound",
+      "heading": "Sanders is 8-1 with a 2.91 ERA",
+      "paragraphs": [
+        "Sanders won both of his starts and has the eighth-best ERA in MLBC among qualified pitchers. All five Seals starters made two starts this sim, and each had at least one outing of six or more innings with two or fewer earned runs.",
+        "The bullpen had a harder week. Clarence Kampen, Cradle, Paul Olivas, Barbeque Hat and Jesus Perrins each had an ERA above 6.00 for the sim. Perrins still got the win in the walk-off game and is 11-1 this season, all in relief, which ties him for fourth in MLBC in wins."
+      ],
+      "insert": "pitching"
+    },
+    {
+      "label": "Seals among the MLBC leaders",
+      "heading": "Jinwoo leads the league in home runs, RBI and OPS",
+      "paragraphs": [
+        "**Sung Jinwoo** homered three times this sim and has 33 home runs, six more than anyone else in MLBC. He also leads the league with 89 RBI and a 1.059 OPS. Guster's 52 stolen bases are tied with Rocket City's Flash Funk for the league lead."
+      ],
+      "insert": "leaders"
+    }
+  ],
+  "footer": "The Solicitor is published after every sim."
+}
