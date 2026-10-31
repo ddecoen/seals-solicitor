@@ -1,0 +1,707 @@
+{
+  "issue_no": 3,
+  "motto": "All the Seals news fit to print",
+  "kicker": "Trade Deadline Special",
+  "headline": "Buy: A Third Baseman Would Do the Most for the Seals' Playoff Odds",
+  "dek": "The Seals are 60-42 and hold the wild card by percentage points, but their run differential looks more like a .530 team. The Solicitor's projection gives them a 53% chance at the postseason as they stand and about 77% with a third baseman and one more arm.",
+  "byline": "By the Solicitor Seals desk",
+  "skip_games": true,
+  "stat_strip": [
+    [
+      "53%",
+      "Playoff odds as is"
+    ],
+    [
+      "25% / 28%",
+      "Division / wild card"
+    ],
+    [
+      "2.0",
+      "Games behind Lake Elsinore"
+    ],
+    [
+      "$40.1M",
+      "Seals cash on hand"
+    ]
+  ],
+  "lead": [
+    "The MLBC trade deadline is July 31, and the next sim runs through it. Whatever the Seals are going to do has to be done before then.",
+    "San Francisco is 60-42, two games behind Lake Elsinore in the RL West and percentage points ahead of Peoria (62-44) for the league's only wild card. Midland is three games behind them. But the Seals have outscored opponents by only 39 runs, which by the Pythagorean formula is worth about 54 wins, not 60. That is the lowest expected win total of the seven RL contenders in the table below."
+  ],
+  "sections": [
+    {
+      "label": "The odds",
+      "heading": "A coin flip as they stand",
+      "paragraphs": [
+        "The Solicitor played out the rest of the RL schedule 20,000 times, using every team's actual remaining games from the league site. Each team's strength is its run differential so far, pulled partway toward .500, with a small edge for the home team. Three division winners and one wild card make the playoffs.",
+        "As they stand, the Seals reach the postseason 53% of the time: 25% as division champions and 28% as the wild card. Their median finish is 91 wins. Lake Elsinore (88%) and Dayton (86%) are the safest bets in the RL, followed by Erie (65%) and Peoria (57%)."
+      ],
+      "table": {
+        "headers": [
+          "Team",
+          "W-L",
+          "Run diff",
+          "Win div",
+          "Wild card",
+          "Playoffs"
+        ],
+        "aligns": [
+          "left",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right"
+        ],
+        "rows": [
+          [
+            "Lake Elsinore",
+            "63-41",
+            "+90",
+            "75%",
+            "13%",
+            "88%"
+          ],
+          [
+            "Dayton",
+            "59-45",
+            "+77",
+            "85%",
+            "1%",
+            "86%"
+          ],
+          [
+            "Erie",
+            "63-43",
+            "+36",
+            "46%",
+            "19%",
+            "65%"
+          ],
+          [
+            "Peoria",
+            "62-44",
+            "+51",
+            "36%",
+            "21%",
+            "57%"
+          ],
+          [
+            "**San Francisco**",
+            "**60-42**",
+            "**+39**",
+            "**25%**",
+            "**28%**",
+            "**53%**"
+          ],
+          [
+            "Midland",
+            "58-46",
+            "+78",
+            "19%",
+            "16%",
+            "34%"
+          ],
+          [
+            "Richmond",
+            "53-50",
+            "+80",
+            "15%",
+            "2%",
+            "17%"
+          ]
+        ],
+        "tints": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          false,
+          false
+        ],
+        "note": "20,000 simulations of the remaining RL schedule. Odds do not include trades that have not been processed yet."
+      },
+      "after": [
+        "The other contenders are not standing still. Lake Elsinore added reliever Jesus Illie from Scranton (3.86 ERA in 30 games since). Peoria added starter Arthur Jackson (3.61 ERA in 12 starts for them). On Oct. 30, Erie agreed to send its first-round pick and Harry Bosch to Oklahoma City for starter Martin Atari and hitter Jason Fleece. If Lake Elsinore, Peoria and Erie each add about one win of talent and the Seals do nothing, the Seals' odds drop to about 45%."
+      ]
+    },
+    {
+      "label": "Team needs",
+      "heading": "Offense is fine, pitching is average, defense is the weak spot",
+      "paragraphs": [
+        "The Seals lead the RL in home runs and stolen bases and rank sixth of 15 in runs per game. They are eighth in runs allowed. Their starters pitch fewer innings per start than all but four RL rotations, which puts more weight on the bullpen. And only two RL teams have made more errors per game."
+      ],
+      "table": {
+        "headers": [
+          "Category",
+          "Seals",
+          "RL rank (of 15)"
+        ],
+        "aligns": [
+          "left",
+          "right",
+          "right"
+        ],
+        "rows": [
+          [
+            "Runs per game",
+            "5.40",
+            "6th"
+          ],
+          [
+            "Home runs",
+            "139",
+            "1st"
+          ],
+          [
+            "Stolen bases",
+            "95",
+            "1st"
+          ],
+          [
+            "On-base / slugging",
+            ".351 / .456",
+            "4th / 4th"
+          ],
+          [
+            "Runs allowed per game",
+            "5.02",
+            "8th"
+          ],
+          [
+            "Starters' ERA",
+            "4.45",
+            "7th"
+          ],
+          [
+            "Innings per start",
+            "5.5",
+            "11th"
+          ],
+          [
+            "Bullpen ERA",
+            "4.76",
+            "4th"
+          ],
+          [
+            "Strikeouts per 9",
+            "6.0",
+            "3rd"
+          ],
+          [
+            "Errors per game",
+            "0.52",
+            "13th"
+          ]
+        ],
+        "note": "Counted from MLBC box scores through July 29."
+      },
+      "after": [
+        "**Offense.** The hole is third base. Bill Sprecher has started 99 games there and is hitting .208/.274/.375. That is not a slump: his career line is .214/.285/.359. Catcher is the other weak spot. Roberto Larimore, listed as a third baseman, has caught 48 games, and since Mario Martin was traded to Norwich he is the everyday catcher. That points to two ways to fix the same problem: trade for a third baseman, or trade for a catcher and move Larimore back to third.",
+        "**Pitching.** The bullpen's 4.76 ERA ranks fourth in the RL, but it is likely to get worse. Irv Tat (3.45 ERA) is listed as injured for 215 days. Tat had been the best of the four relievers the Seals signed last winter for a combined $2.7 million, along with Lew Ramos, Cradle and Barbeque Hat. \"We did our shopping in the winter, and the guy who was doing the job is done for the year,\" the Seals' general manager said. \"There's no help coming from anything we already did. If the bullpen gets better, it's because we made a move this week.\" Jesus Perrins has a 3.88 ERA but is allowing a .587 OPS against a career .791. And the closer, Alfonso Cradle, has allowed 11 home runs in 50 innings, with a fielding-independent ERA of 6.95.",
+        "**Defense.** Joe McNiell has made 10 errors in part-time duty, Burton Guster nine at second base and Larimore eight, along with four passed balls behind the plate. The league roster lists Guster as injured for about eight more days, which means more McNiell at second in the meantime.",
+        "**Depth.** The injuries expose a thin roster. Tat is out for the season, Guster is out for about another week and catcher Mario Martin is gone to Norwich. The bench behind the regulars is McNiell, Frank Craig (39 at-bats this season), backup catcher Scott Hearn and Jim Hughes, who has not played. \"We're not a deep team, and we know it,\" the general manager said. \"Lose one regular and you feel it. Lose two and you're playing guys out of position. Part of what we're shopping for is just bodies who can play.\""
+      ]
+    },
+    {
+      "label": "The lineup",
+      "heading": "Position by position",
+      "paragraphs": [
+        "Over a long season, a player's career numbers are usually the best guide to what he will do the rest of the way. By that measure, three Seals regulars are hitting well below what they normally do, and only one spot is weak by design."
+      ],
+      "table": {
+        "headers": [
+          "Pos",
+          "Regular",
+          "2145 line",
+          "2145 OPS",
+          "Career OPS"
+        ],
+        "aligns": [
+          "left",
+          "left",
+          "right",
+          "right",
+          "right"
+        ],
+        "rows": [
+          [
+            "C",
+            "Roberto Larimore",
+            ".281/.339/.380",
+            ".719",
+            ".793"
+          ],
+          [
+            "1B",
+            "Sung Jinwoo",
+            ".297/.399/.630",
+            "1.029",
+            "1.017"
+          ],
+          [
+            "2B",
+            "Burton Guster",
+            ".332/.390/.493",
+            ".883",
+            ".864"
+          ],
+          [
+            "SS",
+            "Joe Flynn",
+            ".290/.353/.499",
+            ".852",
+            ".851"
+          ],
+          [
+            "3B",
+            "Bill Sprecher",
+            ".208/.274/.375",
+            ".649",
+            ".644"
+          ],
+          [
+            "LF",
+            "Paul Wilkerson",
+            ".294/.348/.394",
+            ".742",
+            ".796"
+          ],
+          [
+            "CF",
+            "Michael Sirin",
+            ".277/.365/.471",
+            ".836",
+            ".833"
+          ],
+          [
+            "RF",
+            "Bryant Aly",
+            ".255/.319/.350",
+            ".669",
+            ".750"
+          ],
+          [
+            "DH",
+            "Larry June",
+            ".274/.335/.491",
+            ".826",
+            ".785"
+          ]
+        ],
+        "tints": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "note": "Regular = most starts at the position this season. Career figures are from each player's MLBC card."
+      }
+    },
+    {
+      "label": "Who keeps it up",
+      "heading": "Perrins and Sanders are due to cool off, Aly and Larimore to heat up",
+      "paragraphs": [
+        "**Likely to slow down.** Perrins is 12-2 in relief, but hitters have a .587 OPS against him this year and .791 for his career. Wendell Sanders has a 3.38 ERA but a fielding-independent ERA of 4.19, and this is his first big-league season, so there is no track record to lean on. Scott Hearn is hitting .426, in 47 at-bats. Larry June's .826 OPS is about 40 points above his short career mark.",
+        "**Likely to pick up.** Bryant Aly, Larimore and Wilkerson are all hitting 50 to 80 points of OPS below their careers, and all three have a lower batting average on balls in play than usual. Tyree Forkin's 5.10 ERA comes with a 3.96 fielding-independent ERA and 9.7 strikeouts per nine. Woodrow Flowers is allowing a .755 OPS after .639 last season.",
+        "**Right where they should be.** Jinwoo (1.029 OPS this year, 1.017 career), Flynn (.852 and .851), Sirin (.836 and .833) and, unfortunately, Sprecher (.649 and .644)."
+      ]
+    },
+    {
+      "label": "On the block",
+      "heading": "Who is available",
+      "paragraphs": [
+        "The Solicitor has no inside sources. What follows is what sellers have posted on the league's trade block, matched against what the Seals need.",
+        "Oklahoma City, 13 games out in the Seals' own division, has the longest useful list. Its general manager writes that Toots Rawls and Brady Ziebarth are in the last year of their deals and could both go, that Bray Wyatt and Dallas Fuhriman would go only for an offer that blows him away, and that he wants picks and prospects. Norwich is holding what it calls a bullpen sale for cash or third-round picks. Wisconsin wants picks, prospects or cash. Idaho Falls wants picks or cash. Portland would take a second-round pick for Ed Burns. Lake Elsinore's own post says it is looking for pitching and maybe a catcher, which means the Seals' division rival is shopping in the same aisle."
+      ],
+      "table": {
+        "headers": [
+          "Hitter",
+          "Team",
+          "Pos",
+          "Contract",
+          "Last 3 years",
+          "Runs gained*"
+        ],
+        "aligns": [
+          "left",
+          "left",
+          "left",
+          "left",
+          "right",
+          "right"
+        ],
+        "rows": [
+          [
+            "Toots Rawls",
+            "OKC",
+            "3B",
+            "1 yr / $4.109M",
+            ".307/.372/.507",
+            "+21 over Sprecher"
+          ],
+          [
+            "Ham Porter",
+            "PORT",
+            "C",
+            "4 yrs / $4.317M",
+            ".271/.368/.521",
+            "+22 (Larimore to 3B)"
+          ],
+          [
+            "Ed Burns",
+            "PORT",
+            "SS",
+            "1 yr / $2.784M",
+            ".313/.401/.443",
+            "+18 if he can play 3B"
+          ],
+          [
+            "Johnny Hockey",
+            "OKC",
+            "C",
+            "2 yrs / $3.913M",
+            ".289/.354/.462",
+            "+15 (Larimore to 3B)"
+          ],
+          [
+            "Geoff Peterson",
+            "OKC",
+            "3B",
+            "1 yr / $831K",
+            ".282/.343/.436",
+            "+12 over Sprecher"
+          ],
+          [
+            "Dallas Fuhriman",
+            "OKC",
+            "CF",
+            "5 yrs / $4.01M",
+            ".305/.363/.543",
+            "+13 over Aly"
+          ],
+          [
+            "Dave Hicks",
+            "IDA",
+            "LF",
+            "1 yr / $1.465M",
+            ".331/.374/.507",
+            "+12 over Aly"
+          ],
+          [
+            "Ronnie Visalli",
+            "SUGR",
+            "RF",
+            "2 yrs / $890K",
+            ".254/.349/.494",
+            "+8 over Aly"
+          ]
+        ],
+        "note": "*Estimated runs over the last 60 games (about 255 plate appearances), from each player's 2143-45 line against the Seals player he would replace. Ten runs is about one win. Defense is not included."
+      }
+    },
+    {
+      "label": "Pitching market",
+      "heading": "One starter, one late-inning arm",
+      "paragraphs": [
+        "Wyatt is the best pitcher available: 12-5 with a league-leading 2.15 ERA, and a 3.27 and 3.59 the two seasons before. Replacing about a dozen of Raymond Holt's starts with Wyatt's is worth roughly 18 runs. He is also signed for $7.5 million a year through 2147, and Oklahoma City has said only an overwhelming offer gets him."
+      ],
+      "table": {
+        "headers": [
+          "Pitcher",
+          "Team",
+          "Role",
+          "Contract",
+          "3-yr ERA",
+          "Runs saved*"
+        ],
+        "aligns": [
+          "left",
+          "left",
+          "left",
+          "left",
+          "right",
+          "right"
+        ],
+        "rows": [
+          [
+            "Bray Wyatt",
+            "OKC",
+            "SP",
+            "3 yrs / $7.5M",
+            "3.11",
+            "+18"
+          ],
+          [
+            "Brady Ziebarth",
+            "OKC",
+            "SP",
+            "1 yr / $2.647M",
+            "4.10",
+            "+9"
+          ],
+          [
+            "Cedric Corns",
+            "WISC",
+            "RP",
+            "1 yr / $830K",
+            "3.36",
+            "+9"
+          ],
+          [
+            "Steve Gaffey",
+            "WISC",
+            "RP",
+            "1 yr / $310K",
+            "3.78",
+            "+7"
+          ],
+          [
+            "John Ramsey",
+            "NORW",
+            "RP",
+            "2 yrs / $3.65M",
+            "4.07",
+            "+6"
+          ]
+        ],
+        "note": "*Starters measured against about 78 innings of Raymond Holt (5.14 ERA over the last three years). Relievers measured against about 22 late-inning innings of Alfonso Cradle (5.47), weighted for leverage."
+      },
+      "after": [
+        "Ziebarth is the realistic starter. He would not pitch like Wyatt, but he would take innings from a rotation that averages 5.5 per start, and Oklahoma City has already said it could move him and Rawls both. For the ninth inning, Cedric Corns has 21 saves and a 2.77 ERA for Wisconsin and costs $830,000 for the rest of the year. Steve Gaffey, also in Wisconsin, is the cheaper version. John Ramsey, tied for second in MLBC with 24 saves, is the choice if the Seals want a closer for 2146 as well."
+      ]
+    },
+    {
+      "label": "The Solicitor's recommendation",
+      "heading": "Buy, and pay in cash",
+      "paragraphs": [
+        "**Get Rawls, and Ziebarth with him if Oklahoma City will package them.** Rawls alone moves the Seals' playoff odds from 53% to about 70%. The one catch is his glove: scouts grade Bill Sprecher's range at third well above Rawls' (5.77 to 3.58), and Sanders, the Seals' best starter, gets two-thirds of his outs on the ground, so Rawls' real gain is somewhat smaller than his bat alone suggests. It is still the biggest upgrade on the market.",
+        "**Add a reliever for cash.** Corns or Gaffey from Wisconsin would replace Cradle in the ninth for a few hundred thousand dollars. A closer by himself is worth about eight points of playoff odds.",
+        "**Spend money and second-tier prospects, not the top three.** The Seals have $40.1 million on hand against a $75 million cap, and they already traded their first-round pick in the upcoming draft to Norwich. Norwich, Wisconsin, Idaho Falls and Texas have all said they want cash.",
+        "**Take Flynn off the block.** The Seals list their own shortstop as available. He is hitting exactly what he always has, he is the team's third-best regular by OPS, and he is signed through 2146. That is an offseason conversation.",
+        "**Leave right field alone.** Hicks would help, but Aly is the regular most likely to start hitting again on his own, and the Seals' biggest gains come from fixing third base and the ninth inning first."
+      ],
+      "table": {
+        "headers": [
+          "Scenario",
+          "Runs added",
+          "Win division",
+          "Playoffs"
+        ],
+        "aligns": [
+          "left",
+          "right",
+          "right",
+          "right"
+        ],
+        "rows": [
+          [
+            "Stand pat",
+            "0",
+            "25%",
+            "53%"
+          ],
+          [
+            "Add Corns",
+            "+9",
+            "30%",
+            "61%"
+          ],
+          [
+            "Add Wyatt",
+            "+18",
+            "36%",
+            "68%"
+          ],
+          [
+            "Add Rawls",
+            "+21",
+            "38%",
+            "70%"
+          ],
+          [
+            "Rawls + Ziebarth (or Rawls + Corns)",
+            "+30",
+            "45%",
+            "77%"
+          ],
+          [
+            "Rawls + Ziebarth + Corns",
+            "+39",
+            "52%",
+            "83%"
+          ]
+        ],
+        "tints": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true
+        ],
+        "note": "Same 20,000-season simulation, with the Seals' strength raised by the runs each move is projected to add."
+      }
+    },
+    {
+      "label": "The long view",
+      "heading": "Win it all now, or in 2147?",
+      "paragraphs": [
+        "**Jinwoo is staying.** The Seals intend to make Sung Jinwoo a Seal for life. \"He's not going anywhere,\" the general manager said. \"Jinwoo finishes his career in a Seals uniform, and we want to put another ring on his hand before he does.\" His contract ends after this season, and the league's current estimate puts his asking price at about $7.2 million a year, just under the $7.5 million maximum, with deals of four to seven years available. So the question is not whether this team tries to win another title with him. It is when to go for broke: this October, or two years from now.",
+        "**Going all-in now** would mean adding Bray Wyatt and Dallas Fuhriman on top of the rentals, and Oklahoma City has made clear the price for those two is top prospects. One name is not on the table: \"Oren McLaughin is not available,\" the general manager said. \"He hasn't been discussed in any trade, and he won't be.\" That leaves Frank Prater and Tormund Giantsbane as the centerpieces of any all-in deal. By the Solicitor's simulation, that roster would make the playoffs about 96% of the time and win the championship about 32% of the time. The more modest package, Rawls, Ziebarth and Corns paid for with cash and second-tier prospects, makes the playoffs about 83% of the time and wins it all about 17% of the time. Standing pat, the Seals win the title about 5% of the time."
+      ],
+      "table": {
+        "headers": [
+          "Path",
+          "What it costs",
+          "Playoffs",
+          "Pennant",
+          "Title"
+        ],
+        "aligns": [
+          "left",
+          "left",
+          "right",
+          "right",
+          "right"
+        ],
+        "rows": [
+          [
+            "Stand pat",
+            "Nothing",
+            "53%",
+            "11%",
+            "5%"
+          ],
+          [
+            "**Prudent: Rawls, Ziebarth, Corns**",
+            "Cash, 2nd-tier prospects",
+            "83%",
+            "30%",
+            "17%"
+          ],
+          [
+            "All-in: also Wyatt, Fuhriman",
+            "Prater, Giantsbane, $11.5M/yr",
+            "96%",
+            "46%",
+            "32%"
+          ]
+        ],
+        "tints": [
+          false,
+          true,
+          false
+        ],
+        "note": "Title odds assume the AL champion is about a .545 team and best-of-five, seven and seven playoff rounds. Treat them as rough. The all-in row assumes every move pays off as projected; Wyatt and Fuhriman together are owed $11.5 million a year through 2147."
+      },
+      "after": [
+        "The all-in path roughly doubles the Seals' title chances over the prudent one. What it costs is a big piece of 2147.",
+        "League scouts rank the Seals' farm system fourth of 30, with five of the top 50 prospects. Three of them are the core of a future champion. Oren McLaughin (No. 5 overall) is a starter whose scouting report projects him to hold hitters to about a .589 OPS, between Wyatt's and Wendell Sanders'. Frank Prater (No. 29) is a catcher projected for a .918 OPS with one of the strongest arms in the system. Tormund Giantsbane (No. 26) is a shortstop projected for a .961 OPS, ready about the time Joe Flynn's contract ends. McLaughin and Prater are in their first seasons at AAA and Giantsbane is in AA, so 2146 or 2147 is the realistic arrival.",
+        "Picture the 2147 Seals. Jinwoo is 33. Burton Guster, Michael Sirin, Larry June and Manuel Tarbox are 26, Sanders is 27 and Tyree Forkin is 28. McLaughin and Prater are 24 and Giantsbane is 23, and under league rules each plays his first few big-league seasons on a contract that costs the Seals nothing, which is what leaves room in the budget for Jinwoo's deal. That is a lineup and rotation built around players in their mid-20s, with Jinwoo in the middle of it. Trading Prater and Giantsbane for Wyatt, who will be 34 in 2147, and Fuhriman would take two of those three young cornerstones away."
+      ]
+    },
+    {
+      "label": "The verdict",
+      "heading": "Roll the dice this year, go all-in in 2147",
+      "paragraphs": [
+        "The sellers want exactly what the Seals have to spare. Oklahoma City's farm system ranks 30th of 30 and Wisconsin's 28th, and both are asking for picks, prospects or cash. Beyond the top three, the Seals have Fred Klase (No. 103), Dave Rood (No. 118) and Justin Etchison (No. 123), plus $40.1 million. That is enough to pay for Rawls, Ziebarth and Corns without touching the players who make 2147 possible."
+      ],
+      "table": {
+        "headers": [
+          "Prospect",
+          "Pos",
+          "Age",
+          "Level",
+          "League rank",
+          "Scouting projection",
+          "Likely arrival"
+        ],
+        "aligns": [
+          "left",
+          "left",
+          "right",
+          "left",
+          "right",
+          "right",
+          "right"
+        ],
+        "rows": [
+          [
+            "Oren McLaughin",
+            "SP",
+            "22",
+            "AAA",
+            "5",
+            "allows .589 OPS",
+            "2146-47"
+          ],
+          [
+            "Tormund Giantsbane",
+            "SS/3B",
+            "21",
+            "AA",
+            "26",
+            ".961 OPS",
+            "2147"
+          ],
+          [
+            "Frank Prater",
+            "C",
+            "22",
+            "AAA",
+            "29",
+            ".918 OPS",
+            "2146-47"
+          ],
+          [
+            "Fred Klase",
+            "2B",
+            "18",
+            "A",
+            "103",
+            ".856 OPS",
+            "Later"
+          ],
+          [
+            "Dave Rood",
+            "OF",
+            "21",
+            "AAA",
+            "118",
+            ".819 OPS",
+            "2146-47"
+          ],
+          [
+            "Justin Etchison",
+            "1B/LF",
+            "23",
+            "AAA",
+            "123",
+            ".847 OPS",
+            "2146"
+          ]
+        ],
+        "note": "League rank is the site's current prospect ranking. Projections are per 600 at-bats, from each player's scouting report. Arrival dates are the Solicitor's estimate."
+      },
+      "after": [
+        "\"We want to give Jinwoo a real shot this October,\" the general manager said. \"But we're not going to empty the farm system to do it. The team we're building for '47 is the one we're most excited about.\"",
+        "**The Solicitor's call: make the prudent additions, roll the dice this October, and keep the kids.** Rawls, Ziebarth and Corns more than triple the Seals' title chances this year, from about 5% to about 17%, and cost nothing the 2147 team will miss. If it does not happen this year, the Seals will have Jinwoo, signed for the long haul, mentoring a team built around 24- to 28-year-olds with a farm system that is still delivering. That is the year to push every chip in."
+      ]
+    },
+    {
+      "label": "On the calendar",
+      "heading": "Lake Elsinore, first and last",
+      "paragraphs": [
+        "Whatever the Seals do, they will find out quickly whether it was enough. Their first series after the deadline is three games at home against Lake Elsinore, Aug. 4-6. Their last series of the season is three more at Lake Elsinore, ending Oct. 12."
+      ]
+    }
+  ],
+  "footer_full": "Team and game figures are counted from MLBC box scores through July 29, 2145. Career lines, contracts, trade-block listings, rosters, cash and schedules come from mlbcsimleague.com as of Oct. 31. Playoff odds come from the Solicitor's own simulation, not the league. Runs estimates use a simple runs-created formula and 2143-45 stats from MLBC player cards, and do not account for defense or ballparks."
+}

@@ -257,8 +257,11 @@ def footer(f, s, folder_name="") -> str:
         link = (f" Read this issue and every back issue at <a href=\"{SITE_URL}\" style=\"color:{RED};font-weight:bold;\">"
                 f"{esc(SITE_URL.replace('https://', '').rstrip('/'))}</a>.")
     return (f"<div style=\"border-top:3px double {RULE};margin-top:26px;padding-top:10px;font-family:{SERIF};font-style:italic;"
-            f"font-size:12px;line-height:1.5;color:{MUTED};\">Every figure in this issue is counted from MLBC box scores through "
-            f"{esc(f['through_str'])}. Pythagorean record uses a 1.83 exponent. {md_inline(extra)}{link}</div>")
+            f"font-size:12px;line-height:1.5;color:{MUTED};\">"
+            + (md_inline(s["footer_full"]) if s.get("footer_full") else
+               f"Every figure in this issue is counted from MLBC box scores through {esc(f['through_str'])}. "
+               f"Pythagorean record uses a 1.83 exponent. {md_inline(extra)}")
+            + f"{link}</div>")
 
 
 # ---------------------------------------------------------------- assemble
@@ -272,8 +275,9 @@ def render(f, s) -> str:
     for i, para in enumerate(s["lead"]):
         blocks.append(p(para, first=(i == 0)))
 
-    blocks.append(section_head(s.get("games_heading", "The sim, game by game")))
-    blocks.append(games_table(f))
+    if not s.get("skip_games"):
+        blocks.append(section_head(s.get("games_heading", "The sim, game by game")))
+        blocks.append(games_table(f))
 
     strip = s.get("stat_strip") or [
         (f"{p_['W']}-{p_['L']}", "This sim"),
@@ -299,6 +303,12 @@ def render(f, s) -> str:
             blocks.append(pitching_table(f["pitching_period"]))
         elif sec.get("insert") == "leaders":
             blocks.append(leaders_table(f))
+        if sec.get("table"):
+            tb = sec["table"]
+            rows = [[md_inline(str(c)) for c in r] for r in tb["rows"]]
+            blocks.append(table(tb["headers"], rows, tb.get("aligns"), tb.get("tints"), tb.get("note")))
+        for para in sec.get("after", []):
+            blocks.append(p(para))
 
     blocks.append(footer(f, s))
     inner = "\n".join(blocks)
