@@ -20,7 +20,7 @@ BAT_RE = re.compile(
     r"^(\s*)(\S.*?)\s+([A-Za-z0-9\-]+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+([\d.]+)\s*$"
 )
 PIT_RE = re.compile(
-    r"^(\S.*?)\s{2,}(\d+ \d/3|\d/3|\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+([\d.]+)\s*$"
+    r"^(\S.*?)(?:\s{2,}|(?<=\))\s*)(\d+ \d/3|\d/3|\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+([\d.]+)\s*$"
 )
 POTG_RE = re.compile(r"^High Heat Baseball Player of the Game:\s+(.+?)\s*$")
 ATT_RE = re.compile(r"Att:\s*([\d,]+)")

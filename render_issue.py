@@ -277,7 +277,8 @@ def render(f, s) -> str:
 
     strip = s.get("stat_strip") or [
         (f"{p_['W']}-{p_['L']}", "This sim"),
-        (f"{p_['home'][0]}-{p_['home'][1]} / {p_['road'][0]}-{p_['road'][1]}", "Home / road"),
+        ((f"{p_['home'][0]}-{p_['home'][1]} / {p_['road'][0]}-{p_['road'][1]}", "Home / road")
+         if sum(p_['home']) and sum(p_['road']) else (f"{p_['RS']}-{p_['RA']}", "Runs for / against this sim")),
         (f"{se['RS'] - se['RA']:+d}", "Season run diff."),
         (f"{se['one_run'][0]}-{se['one_run'][1]}", "One-run games"),
     ]

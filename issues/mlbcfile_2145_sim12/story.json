@@ -1,0 +1,69 @@
+{
+  "issue_no": 2,
+  "motto": "All the Seals news fit to print",
+  "kicker": "Seals Beat",
+  "headline": "A 4-1 Lead Becomes a 7-4 Loss, and Guster Leaves Hurt",
+  "dek": "Sung Peralto's grand slam finished a six-run Auckland ninth on July 29. The Seals went 4-4 on an eight-game road trip and are two games behind Lake Elsinore.",
+  "byline": "By the Solicitor Seals desk",
+  "lead": [
+    "The Seals were three outs from winning their series in Auckland on July 29. Tyree Forkin had struck out 11 and allowed one run in 7 1/3 innings, and San Francisco scored twice in the top of the ninth for a 4-1 lead.",
+    "Auckland scored six runs in the bottom half. Brock Sherretts doubled off Jesus Perrins with one out. Julius Caesar singled him home off Barbeque Hat, and Barry Allen singled. Alfonso Cradle came in, allowed an RBI single to Sterling Mills and walked Jesse Ryder to load the bases, and **Sung Peralto** hit a grand slam with two outs. Auckland won 7-4."
+  ],
+  "games_heading": "The trip, game by game",
+  "sections": [
+    {
+      "label": "Injury",
+      "heading": "Guster hurt on an RBI single in the ninth",
+      "paragraphs": [
+        "**Burton Guster** singled home Bill Sprecher to make it 3-1 in that ninth inning and was injured on the play. Frank Craig replaced him. The box score does not say how serious the injury is.",
+        "Guster had one of the best weeks on the team before he got hurt. He went 11-for-32 with two home runs and four stolen bases, and his 56 steals now lead MLBC by two over Rocket City's Flash Funk."
+      ]
+    },
+    {
+      "label": "The road trip",
+      "heading": "Two of three at Bangor, a split at Dayton",
+      "paragraphs": [
+        "The trip began with a 10-inning win at Bangor on July 22. Wendell Sanders left in the third inning, and Lew Ramos pitched 5 1/3 innings of relief, but Bangor scored three runs in the eighth to tie the game 6-6. **Roberto Larimore** hit a one-out home run in the 10th, and Perrins finished for his 12th win. Larry June went 4-for-5.",
+        "Woodrow Flowers struck out seven in six innings in a 5-3 win the next day, with Cradle getting the save. Then Bangor's Marcelino Wong threw a four-hit shutout, 5-0.",
+        "In Dayton on July 25, Raymond Holt lasted 3 2/3 innings and Dayton scored nine runs in the first five, five of them off Clarence Kampen and Perrins in the fifth. June tripled twice in the 9-4 loss. Manuel Tarbox allowed one run in six innings the next day, and Joe Flynn, Sung Jinwoo and Guster homered in an 8-2 win.",
+        "At Auckland, Sanders gave up four runs in the first inning on July 27, three on a bases-loaded triple by Beefy Bothan, and the Seals lost 9-6. **Paul Wilkerson** had three hits, a home run and three RBI in an 8-4 win on July 28. The next night came the six-run ninth."
+      ]
+    },
+    {
+      "label": "The race",
+      "heading": "Two games back",
+      "paragraphs": [
+        "Lake Elsinore went 5-4 in its nine games, and the Seals' deficit grew from 1.5 games to two. Omaha and Oklahoma City are tied for third, 13 games out.",
+        "San Francisco has outscored opponents by 39 runs, which by the Pythagorean formula is worth about 54 wins in 102 games. The Seals have 60. They are 21-9 in one-run games and 7-1 in extra innings."
+      ],
+      "insert": "standings"
+    },
+    {
+      "label": "At the plate",
+      "heading": "Larimore hits .370 on the trip",
+      "paragraphs": [
+        "Larimore went 10-for-27 with three doubles and the 10th-inning home run. June hit .323, with a 4-for-5 game at Bangor and two triples at Dayton. Joe McNiell walked seven times in 27 plate appearances.",
+        "Jinwoo went 5-for-25 with one home run, his 34th. His lead in MLBC is down to five over Chesapeake's Anthony Micelli, but he still leads the league in RBI (91) and OPS (1.031). Flynn went 4-for-31."
+      ],
+      "insert": "batting"
+    },
+    {
+      "label": "On the mound",
+      "heading": "Forkin strikes out 16 in two starts",
+      "paragraphs": [
+        "Forkin allowed four earned runs in 14 1/3 innings and struck out 16. He took the loss in the 5-0 shutout and got no decision in the walk-off loss. He has 122 strikeouts this season, fourth in MLBC.",
+        "Sanders lasted 2 1/3 innings at Bangor and three at Auckland and allowed eight earned runs with six walks. His ERA rose from 2.91 to 3.38. Cradle saved two games and took the loss in the third."
+      ],
+      "insert": "pitching"
+    },
+    {
+      "label": "Seals among the MLBC leaders",
+      "heading": "Perrins is tied for second in wins, all in relief",
+      "paragraphs": [
+        "Perrins won the July 22 game and lost on July 27. He is 12-2 without a start, one win behind Richmond's Benji McCollum for the league lead."
+      ],
+      "insert": "leaders"
+    }
+  ],
+  "footer": "The Solicitor is published after every sim."
+}
