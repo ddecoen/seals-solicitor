@@ -1,0 +1,95 @@
+{
+  "issue_no": 4,
+  "motto": "All the Seals news fit to print",
+  "kicker": "Seals Beat",
+  "headline": "The Seals Stood Pat. Their Rivals Did Not.",
+  "dek": "San Francisco made no trades before the deadline while Peoria, Dayton, Erie and Midland all added players. The Seals went 4-3 in their first week since, took two of three from Lake Elsinore and lead the wild card by one game.",
+  "byline": "By the Solicitor Seals desk",
+  "lead": [
+    "The trade deadline came and went on July 31 without a move from San Francisco. The Seals did not add a third baseman, a starter or a reliever, and they kept every prospect in the organization.",
+    "\"We looked hard at a few things, and the prices didn't make sense for us,\" the Seals' general manager said. \"We believe in this group, and we weren't going to move the kids to chase a rental. This is the team we're going to win with.\""
+  ],
+  "games_heading": "The week, game by game",
+  "stat_strip": [["4-3", "This sim"], ["+15", "Run diff. this sim"], ["2.5", "Games behind Lake Elsinore"], ["+1", "Wild-card lead"]],
+  "sections": [
+    {
+      "label": "Around the league",
+      "heading": "Peoria took two of the Seals' targets",
+      "paragraphs": [
+        "The Seals' closest wild-card rival was the busiest buyer. Peoria added starter Brady Ziebarth and third baseman Geoff Peterson from Oklahoma City, both players the Solicitor's deadline special had identified as fits for San Francisco, and catcher Harry Beeks from Bangor.",
+        "Dayton, which leads the RL East, picked up shortstop Ed Burns from Portland and reliever Rory Kelly from Norwich. Midland added first baseman Taran Vandewater from Oklahoma City. Erie's deal for starter Martin Atari and hitter Jason Fleece went through. Toots Rawls, Bray Wyatt, Dallas Fuhriman, Cedric Corns and Steve Gaffey all stayed where they were."
+      ]
+    },
+    {
+      "label": "The race",
+      "heading": "Still a coin flip",
+      "paragraphs": [
+        "The Seals are 64-45 and lead Peoria (66-49) and Midland (65-48) by one game for the wild card. They are 2.5 games behind Lake Elsinore, which went 5-3 this sim while the Seals went 4-3.",
+        "The Solicitor reran its projection with every team's remaining schedule. The Seals make the playoffs 53% of the time, the same as before the deadline: 25% as division champions and 28% as the wild card. That projection is based on what each team has done so far. If the players Peoria, Dayton, Erie and Midland just acquired perform as expected, the Seals' chances fall to about 47%.",
+        "The team to watch may be Midland. Its +98 run differential is the best in the RL, and it has won four straight."
+      ],
+      "insert": "standings",
+      "table": {
+        "headers": ["Team", "W-L", "Run diff", "Win div", "Wild card", "Playoffs"],
+        "aligns": ["left", "right", "right", "right", "right", "right"],
+        "rows": [
+          ["Lake Elsinore", "68-44", "+81", "75%", "13%", "88%"],
+          ["Dayton", "62-50", "+78", "69%", "1%", "69%"],
+          ["Erie", "68-46", "+31", "45%", "19%", "64%"],
+          ["**San Francisco**", "**64-45**", "**+54**", "**25%**", "**28%**", "**53%**"],
+          ["Midland", "65-48", "+98", "32%", "20%", "52%"],
+          ["Peoria", "66-49", "+61", "23%", "19%", "41%"],
+          ["Richmond", "59-52", "+83", "31%", "1%", "33%"]
+        ],
+        "tints": [false, false, false, true, false, false, false],
+        "note": "20,000 simulations of the remaining RL schedule, based on results through Aug. 10. Does not account for players acquired at the deadline."
+      }
+    },
+    {
+      "label": "The week",
+      "heading": "Two wins over Lake Elsinore, two late-inning losses",
+      "paragraphs": [
+        "The week opened with the most important series of the month, three games at home against Lake Elsinore. Lew Ramos, newly moved into the rotation, threw eight scoreless innings in the opener, but the game was 0-0 going to the ninth and Lake Elsinore scored five times. Clarence Kampen was charged with three runs without getting an out, and the Seals lost 5-1.",
+        "They won the next two by a combined 21-3. Manuel Tarbox held Lake Elsinore scoreless for seven innings in a 9-0 win on Aug. 5, and **Michael Sirin** went 5-for-5 in a 12-3 win on Aug. 6. Roberto Larimore added three hits.",
+        "Woodrow Flowers then threw seven scoreless innings in a 7-0 win over Sugar Land. The Seals lost the next two. On Aug. 9 they led 2-1 with two outs and nobody on in the ninth. Alfonso Cradle came in after a single and allowed three straight hits, including a two-run triple by Matthew Fackler, and Sugar Land won 4-2.",
+        "On Aug. 10, Burton Guster, back from his injury the day before, homered, Joe Flynn also homered, and the Seals beat Peoria 3-2. Barbeque Hat got the win with 1 1/3 scoreless innings and Kampen got the save."
+      ]
+    },
+    {
+      "label": "Coming out of the deadline",
+      "heading": "What this team is, and what it still needs",
+      "paragraphs": [
+        "**The lineup is hitting.** The Seals scored 38 runs in seven games. Sung Jinwoo walked 11 times and homered three times, giving him 37, six more than anyone else in MLBC. Sirin hit .379 with eight RBI. Larimore, one of the regulars the Solicitor expected to pick up, went 10-for-24.",
+        "**Third base is still the hole.** Bill Sprecher went 4-for-26 and is hitting .204. Larry June, who played second base while Guster was out, went 3-for-24.",
+        "**The rotation got deeper.** Ramos, who had pitched only in relief this season, made two starts and allowed three earned runs in 15 2/3 innings, with Raymond Holt moving to the bullpen. Ramos struck out only two batters in those starts, so he is relying on his defense. Tarbox and Flowers combined to allow two earned runs in 20 2/3 innings.",
+        "**The bullpen is still the problem.** Two of the three losses came in the ninth inning, with Kampen and Cradle each giving up multiple runs without getting an out. Kampen allowed five earned runs in 3 1/3 innings this sim and Cradle has a 5.75 ERA. Hat is the exception: 4 1/3 scoreless innings with six strikeouts.",
+        "**The bottom line.** No deadline help means this is the team. It can hit and it has four starters going deep into games. Whether the Seals finish ahead of Lake Elsinore or hold off Peoria and Midland may come down to who gets the last three outs."
+      ],
+      "insert": "batting"
+    },
+    {
+      "label": "On the mound",
+      "heading": "Five starters, one week",
+      "paragraphs": [
+        "Tarbox (1.32 ERA), Ramos (1.72) and Flowers (0.00) carried the staff. Tyree Forkin had the only short start, four innings in the 9-4 loss to Sugar Land."
+      ],
+      "insert": "pitching"
+    },
+    {
+      "label": "Seals among the MLBC leaders",
+      "heading": "Jinwoo and Guster still on top",
+      "paragraphs": [
+        "Jinwoo leads MLBC with 37 home runs and 96 RBI and is second in OPS, .001 behind Omaha's Zan Allen. Guster's 56 stolen bases are tied with Rocket City's Flash Funk for the league lead. Forkin is fourth in strikeouts."
+      ],
+      "insert": "leaders"
+    },
+    {
+      "label": "Up next",
+      "heading": "Two more with Peoria",
+      "paragraphs": [
+        "The Seals finish their series at home against Peoria, a direct wild-card rival, then travel to Las Vegas."
+      ]
+    }
+  ],
+  "footer": "The Solicitor is published after every sim."
+}

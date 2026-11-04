@@ -28,6 +28,17 @@ LABELS = ["2B", "3B", "HR", "RBI", "2-OUT RBI", "SB", "CS", "E", "GIDP", "SF", "
           "Runners left in scoring position, 2 outs", "Team LOB", "PB", "DP", "Outfield assists"]
 
 
+def parse_date(s: str) -> date:
+    """Engine writes 'July 21, 2005' but abbreviates some months ('Aug 1, 2005', 'Sept 3, 2005')."""
+    s = s.strip().replace("Sept ", "Sep ").replace(".", "")
+    for fmt in ("%B %d, %Y", "%b %d, %Y"):
+        try:
+            return datetime.strptime(s, fmt).date()
+        except ValueError:
+            pass
+    raise ValueError(f"Unrecognized game date: {s!r}")
+
+
 def ip_to_outs(s: str) -> int:
     s = s.strip()
     if " " in s:
@@ -96,7 +107,7 @@ def parse_game(L: list[str]) -> dict | None:
     while i < len(L):
         l = L[i]
         if m := DATE_RE.match(l):
-            d = datetime.strptime(m.group(1), "%B %d, %Y").date()
+            d = parse_date(m.group(1))
             g["engine_date"] = d.isoformat()
             g["date"] = date(d.year + YEAR_OFFSET, d.month, d.day).isoformat()
         elif m := FINAL_RE.match(l):
