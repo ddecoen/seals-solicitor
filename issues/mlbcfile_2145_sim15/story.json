@@ -1,0 +1,110 @@
+{
+  "issue_no": 5,
+  "motto": "All the Seals news fit to print",
+  "kicker": "Seals Beat",
+  "headline": "Giantsbane Arrives, and the Seals Catch Lake Elsinore",
+  "dek": "San Francisco went 10-6 over the last two sims and is a half-game behind Lake Elsinore, with a better winning percentage, .592 to .591. Since Tormund Giantsbane took over at third base on Aug. 21, the Seals are 5-2.",
+  "byline": "By the Solicitor Seals desk",
+  "games_heading": "Two sims, game by game",
+  "lead": [
+    "Three weeks ago the Seals were 2.5 games out of first place. Now, because Lake Elsinore has played seven more games, San Francisco has the better winning percentage in the RL West, and the Solicitor's projection gives the Seals a 46% chance to win the division, up from 25%.",
+    "They got there with a 10-6 run that included a sweep of Bangor, two of three from Richmond and three straight wins at Las Vegas. And for the last seven of those games, they did it with a 21-year-old at third base whom the Solicitor did not expect to see until 2147."
+  ],
+  "sections": [
+    {
+      "label": "The call-up",
+      "heading": "Giantsbane takes over third base",
+      "paragraphs": [
+        "The Seals called up Tormund Giantsbane, the No. 26 prospect in MLBC, and put him at third base on Aug. 21. He has started every game since, and Bill Sprecher, the everyday third baseman before that, has moved to the bench.",
+        "Giantsbane drove in two runs in his debut, an 11-4 win over Bangor that featured an eight-run second inning. He is 4-for-21 with four walks so far, and the Seals are 5-2 with him in the lineup.",
+        "\"He's ready to help us, and third base was the one spot where we needed it,\" the Seals' general manager said. \"We're not asking him to carry anybody. We're asking him to play good defense and take good at-bats, and he's done that.\"",
+        "The lineup changed around him, too. Sung Jinwoo has been the designated hitter since Aug. 11, with Larry June at first base. Frank Craig has started the last seven games in right field and Joe McNiell the last seven in left."
+      ]
+    },
+    {
+      "label": "The race",
+      "heading": "First place by percentage points",
+      "paragraphs": [
+        "The Seals are 74-51 and Lake Elsinore is 78-54. Lake Elsinore leads by a half-game, but the Seals have the better winning percentage and seven more games left to play, 37 to 30, including the final three of the season at Lake Elsinore.",
+        "If the season ended today, the Seals would win the division on winning percentage and Lake Elsinore would take the wild card. Measured against the wild-card field, the Seals lead Erie (77-56) by one game and Midland (75-56) by two.",
+        "Peoria, which added Brady Ziebarth, Geoff Peterson and Harry Beeks at the deadline, has gone from 2.5 games behind Erie to 80-53 and first place in the RL Central, the best record in the league."
+      ],
+      "insert": "standings",
+      "table": {
+        "headers": ["Team", "W-L", "Run diff", "Win div", "Wild card", "Playoffs"],
+        "aligns": ["left", "right", "right", "right", "right", "right"],
+        "rows": [
+          ["Peoria", "80-53", "+102", "71%", "15%", "86%"],
+          ["Lake Elsinore", "78-54", "+88", "54%", "19%", "73%"],
+          ["**San Francisco**", "**74-51**", "**+59**", "**46%**", "**17%**", "**62%**"],
+          ["Richmond", "70-59", "+105", "56%", "0%", "56%"],
+          ["Dayton", "70-60", "+88", "44%", "0%", "44%"],
+          ["Erie", "77-56", "+31", "15%", "27%", "42%"],
+          ["Midland", "75-56", "+111", "14%", "22%", "37%"]
+        ],
+        "tints": [false, false, true, false, false, false, false],
+        "note": "20,000 simulations of the remaining RL schedule, based on results through Aug. 31. Before the last two sims, the Seals' playoff odds were 53%."
+      }
+    },
+    {
+      "label": "The stretch",
+      "heading": "A sweep in Las Vegas, then two rallies that came up short",
+      "paragraphs": [
+        "The Seals won three straight at Las Vegas from Aug. 13 to 15, then lost three of four to the same team at home. Two of those losses came after big ninth innings. On Aug. 17 they trailed 9-5 going to the bottom of the ninth, and McNiell's two-run double and Jim Hughes' two-run single tied it, but Las Vegas scored twice in the 10th off Paul Olivas and won 11-9. The next night Tyree Forkin pitched a complete game, the Seals scored three times in the ninth, and they lost 4-3.",
+        "They swept Bangor after that, outscoring them 20-10, and took two of three from Richmond. The best game of the stretch came on Aug. 28: **Manuel Tarbox** threw a four-hit complete game and Jinwoo hit two home runs in a 6-1 win over Richmond's Benji McCollum, the MLBC leader in wins."
+      ],
+      "insert": "batting"
+    },
+    {
+      "label": "On the mound",
+      "heading": "Tarbox and Forkin carry the rotation, Sanders hits a wall",
+      "paragraphs": [
+        "Tarbox went 3-0 with a 1.59 ERA, and Forkin struck out 20 in 22 1/3 innings. Wendell Sanders had his worst stretch of the season, allowing 16 earned runs in 16 2/3 innings over four starts. His ERA went from 3.35 to 3.97.",
+        "The fifth spot has been a scramble. Barbeque Hat started on Aug. 14 and threw 3 1/3 scoreless innings, but he is now listed as injured for 22 days. Jesus Perrins started once and Heath Hill, called up from AAA, made his debut on Aug. 27 and allowed five runs in 3 1/3 innings.",
+        "In the bullpen, Olivas has taken over the ninth inning and has five saves, and Clarence Kampen allowed four earned runs in 17 1/3 innings. Alfonso Cradle gave up five runs in four innings of relief in the extra-inning loss to Las Vegas."
+      ],
+      "insert": "pitching"
+    },
+    {
+      "label": "Checking our work",
+      "heading": "The deadline predictions, one month later",
+      "paragraphs": [
+        "In the trade deadline special, the Solicitor picked four players likely to slow down and five likely to pick up. Here is how they have done since Aug. 11."
+      ],
+      "table": {
+        "headers": ["Player", "Prediction", "Since Aug. 11", "Result"],
+        "aligns": ["left", "left", "right", "left"],
+        "rows": [
+          ["Jesus Perrins", "Cool off", "6.43 ERA in 14 IP", "Right"],
+          ["Wendell Sanders", "Cool off", "8.64 ERA in 16 2/3 IP", "Right"],
+          ["Larry June", "Cool off", ".255/.349/.564, 4 HR", "Wrong"],
+          ["Bryant Aly", "Pick up", ".458/.500/.750", "Right"],
+          ["Roberto Larimore", "Pick up", ".397/.417/.466", "Right"],
+          ["Paul Wilkerson", "Pick up", ".292/.433/.542", "Right"],
+          ["Tyree Forkin", "Pick up", "3.63 ERA, 20 K", "Right"],
+          ["Woodrow Flowers", "Pick up", "5.52 ERA", "Wrong"]
+        ],
+        "note": "Scott Hearn, the fourth player picked to cool off, has not batted enough since to judge."
+      },
+      "after": [
+        "Six of eight. Aly and Wilkerson were two of the hottest Seals in the stretch and still lost their starting jobs when the lineup was reshuffled on Aug. 21, which leaves the Seals with two productive bats on the bench for September."
+      ]
+    },
+    {
+      "label": "Seals among the MLBC leaders",
+      "heading": "Jinwoo at 41",
+      "paragraphs": [
+        "Jinwoo hit .233 over the two sims but still homered four times. He leads MLBC with 41 home runs, six ahead of Erie's John McWhorter and Louisville's Ason Unique, and with 109 RBI. Burton Guster stole 10 bases and leads the league with 66, four ahead of Rocket City's Flash Funk. Forkin is third in strikeouts."
+      ],
+      "insert": "leaders"
+    },
+    {
+      "label": "Up next",
+      "heading": "Midland, then a long homestand",
+      "paragraphs": [
+        "The Seals finish a series at Midland, which is two games behind them in the wild-card race, then come home for Auckland, Norwich and Erie."
+      ]
+    }
+  ],
+  "footer": "This issue covers sims 14 and 15. The Solicitor is published after every sim."
+}
